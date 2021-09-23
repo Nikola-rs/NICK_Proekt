@@ -32,6 +32,7 @@
             this.picCat = new System.Windows.Forms.PictureBox();
             this.picDog = new System.Windows.Forms.PictureBox();
             this.picParrot = new System.Windows.Forms.PictureBox();
+            this.btnBackOnGames = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picCat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDog)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picParrot)).BeginInit();
@@ -80,12 +81,23 @@
             this.picParrot.TabStop = false;
             this.picParrot.Click += new System.EventHandler(this.picParrot_Click);
             // 
+            // btnBackOnGames
+            // 
+            this.btnBackOnGames.Location = new System.Drawing.Point(25, 12);
+            this.btnBackOnGames.Name = "btnBackOnGames";
+            this.btnBackOnGames.Size = new System.Drawing.Size(75, 23);
+            this.btnBackOnGames.TabIndex = 4;
+            this.btnBackOnGames.Text = "Назад";
+            this.btnBackOnGames.UseVisualStyleBackColor = true;
+            this.btnBackOnGames.Click += new System.EventHandler(this.btnBackOnGames_Click);
+            // 
             // Game1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::NICK_Proekt.Properties.Resources.Pozadina1;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnBackOnGames);
             this.Controls.Add(this.picParrot);
             this.Controls.Add(this.picDog);
             this.Controls.Add(this.picCat);
@@ -106,5 +118,6 @@
         private System.Windows.Forms.PictureBox picCat;
         private System.Windows.Forms.PictureBox picDog;
         private System.Windows.Forms.PictureBox picParrot;
+        private System.Windows.Forms.Button btnBackOnGames;
     }
 }

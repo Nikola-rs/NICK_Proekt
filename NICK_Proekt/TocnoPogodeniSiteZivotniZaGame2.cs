@@ -10,30 +10,24 @@ using System.Windows.Forms;
 
 namespace NICK_Proekt
 {
-    public partial class GreskaPogodenoZivotno : Form
+    public partial class TocnoPogodeniSiteZivotniZaGame2 : Form
     {
-        public GreskaPogodenoZivotno()
+        public TocnoPogodeniSiteZivotniZaGame2()
         {
             InitializeComponent();
         }
 
-        private void GreskaPogodenoZivotno_Load(object sender, EventArgs e)
+        private void btnIgrajPovtorno_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnTryAgain_Click(object sender, EventArgs e)
-        {
-            //DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            Game1 game1 = new Game1();
+            Game2 game2 = new Game2();
             this.Hide();
-            if (game1.ShowDialog() == DialogResult.OK)
+            if (game2.ShowDialog() == DialogResult.OK)
             {
-            
+
             }
         }
 
-        private void btnBackToGames_Click(object sender, EventArgs e)
+        private void btnNazadIzborIgra_Click(object sender, EventArgs e)
         {
             Informativna_stranica informativna_Stranica = new Informativna_stranica();
             this.Hide();

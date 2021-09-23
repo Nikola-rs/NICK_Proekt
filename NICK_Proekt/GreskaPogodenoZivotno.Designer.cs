@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnTryAgain = new System.Windows.Forms.Button();
+            this.btnBackToGames = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -38,36 +38,38 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(415, 175);
+            this.label1.Location = new System.Drawing.Point(383, 182);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 26);
+            this.label1.Size = new System.Drawing.Size(142, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Ова не е кучето\r\nОва е маче!\r\n";
+            this.label1.Text = "Ова не е точното животно!\r\n";
             // 
-            // button1
+            // btnTryAgain
             // 
-            this.button1.Location = new System.Drawing.Point(393, 217);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(123, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Обиди се повторно";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnTryAgain.Location = new System.Drawing.Point(393, 217);
+            this.btnTryAgain.Name = "btnTryAgain";
+            this.btnTryAgain.Size = new System.Drawing.Size(123, 23);
+            this.btnTryAgain.TabIndex = 1;
+            this.btnTryAgain.Text = "Обиди се повторно";
+            this.btnTryAgain.UseVisualStyleBackColor = true;
+            this.btnTryAgain.Click += new System.EventHandler(this.btnTryAgain_Click);
             // 
-            // button2
+            // btnBackToGames
             // 
-            this.button2.Location = new System.Drawing.Point(378, 246);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(147, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Продолжи кон друга игра";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnBackToGames.Location = new System.Drawing.Point(378, 246);
+            this.btnBackToGames.Name = "btnBackToGames";
+            this.btnBackToGames.Size = new System.Drawing.Size(147, 23);
+            this.btnBackToGames.TabIndex = 2;
+            this.btnBackToGames.Text = "Продолжи кон друга игра";
+            this.btnBackToGames.UseVisualStyleBackColor = true;
+            this.btnBackToGames.Click += new System.EventHandler(this.btnBackToGames_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::NICK_Proekt.Properties.Resources.wrongAnswerEmoji;
-            this.pictureBox1.Location = new System.Drawing.Point(338, 125);
+            this.pictureBox1.Location = new System.Drawing.Point(394, 111);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(71, 47);
+            this.pictureBox1.Size = new System.Drawing.Size(122, 47);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -79,8 +81,8 @@
             this.BackgroundImage = global::NICK_Proekt.Properties.Resources.Pozadina2;
             this.ClientSize = new System.Drawing.Size(929, 450);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnBackToGames);
+            this.Controls.Add(this.btnTryAgain);
             this.Controls.Add(this.label1);
             this.Name = "GreskaPogodenoZivotno";
             this.Text = "GreskaPogodenoZivotno";
@@ -94,8 +96,8 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnTryAgain;
+        private System.Windows.Forms.Button btnBackToGames;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

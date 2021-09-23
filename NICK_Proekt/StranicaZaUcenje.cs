@@ -49,10 +49,12 @@ namespace NICK_Proekt
 
         private void btnBack_Click(object sender, EventArgs e)
         {
+            //DialogResult = System.Windows.Forms.DialogResult.Cancel;
             Informativna_stranica informativnaStranica = new Informativna_stranica();
+            this.Hide();
             if (informativnaStranica.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-
+            
             }
         }
     }

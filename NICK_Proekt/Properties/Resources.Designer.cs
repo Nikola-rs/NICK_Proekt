@@ -63,6 +63,16 @@ namespace NICK_Proekt.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap blob {
+            get {
+                object obj = ResourceManager.GetObject("blob", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cat {
             get {
                 object obj = ResourceManager.GetObject("cat", resourceCulture);
@@ -76,6 +86,16 @@ namespace NICK_Proekt.Properties {
         internal static System.Drawing.Bitmap cat1 {
             get {
                 object obj = ResourceManager.GetObject("cat1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap catt {
+            get {
+                object obj = ResourceManager.GetObject("catt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -106,6 +126,16 @@ namespace NICK_Proekt.Properties {
         internal static System.Drawing.Bitmap dog1 {
             get {
                 object obj = ResourceManager.GetObject("dog1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dogg {
+            get {
+                object obj = ResourceManager.GetObject("dogg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -156,6 +186,16 @@ namespace NICK_Proekt.Properties {
         internal static System.Drawing.Bitmap parrot1 {
             get {
                 object obj = ResourceManager.GetObject("parrot1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap parrott {
+            get {
+                object obj = ResourceManager.GetObject("parrott", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,6 +293,16 @@ namespace NICK_Proekt.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pngaaa10 {
+            get {
+                object obj = ResourceManager.GetObject("pngaaa10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngaaa2 {
             get {
                 object obj = ResourceManager.GetObject("pngaaa2", resourceCulture);
@@ -293,6 +343,46 @@ namespace NICK_Proekt.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pngaaa6 {
+            get {
+                object obj = ResourceManager.GetObject("pngaaa6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngaaa7 {
+            get {
+                object obj = ResourceManager.GetObject("pngaaa7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngaaa8 {
+            get {
+                object obj = ResourceManager.GetObject("pngaaa8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngaaa9 {
+            get {
+                object obj = ResourceManager.GetObject("pngaaa9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Pozadina1 {
             get {
                 object obj = ResourceManager.GetObject("Pozadina1", resourceCulture);
@@ -316,6 +406,36 @@ namespace NICK_Proekt.Properties {
         internal static System.Drawing.Bitmap Pozadina2 {
             get {
                 object obj = ResourceManager.GetObject("Pozadina2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pozadina21 {
+            get {
+                object obj = ResourceManager.GetObject("Pozadina21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap startButton {
+            get {
+                object obj = ResourceManager.GetObject("startButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap startButton1 {
+            get {
+                object obj = ResourceManager.GetObject("startButton1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

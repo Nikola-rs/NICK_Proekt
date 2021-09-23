@@ -15,30 +15,41 @@ namespace NICK_Proekt
         public Form1()
         {
             InitializeComponent();
+            ucimeZaZivotni.ForeColor = Color.FromArgb(88, 202, 0);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            label1.BackColor = Color.Transparent;
-            label2.BackColor = Color.Transparent;
-            label1.Font = new Font(label1.Font, FontStyle.Bold);
-            label1.Text = "        Игри за учење\n           за деца од \nаутистичниот спектар";
-            label2.Text = "Во склоп  на оваа  апликација влегуваат  три игри  од\nразличен  карактер со  цел да  се научат дечињата од\nаутистичниот спектар, вештини кои би им помогнале во\nсекојдневниот живот.";
-        }
+        
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
 
         private void Begin_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Begin_Click_1(object sender, EventArgs e)
+        {
             Informativna_stranica newForm = new Informativna_stranica();
+            this.Hide();
             if (newForm.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
 
             }
+        }
+
+        private void ucimeZaZivotni_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -15,17 +15,16 @@ namespace NICK_Proekt
         public Informativna_stranica()
         {
             InitializeComponent();
-            
-            
         }
 
         private void Informativna_stranica_Load(object sender, EventArgs e)
         {
+            
             //Svojstva za labela informacii
             lblInformacii.BackColor = Color.Transparent;
             lblInformacii.AutoSize = true;
             lblInformacii.Font = new Font(lblInformacii.Font, FontStyle.Bold);
-
+            /*
             //svojstva za lblGame1
             lblGame1.Text = "Целта на оваа игра е да го препознаето типот на\nживотното. Животните  се  дел  од  нашиот  живот,\nтие  нè  прават  среќни  и  всушност тие се наши\nдругари. За таа цел, овој дел од  играта овозмо-\nжува токму препозавање и понатамошно учење\nна животни. ";
             lblGame1.BackColor = Color.Transparent;
@@ -55,11 +54,13 @@ namespace NICK_Proekt
                           + "има  можност да си ја вежба својата меморија.\n";
             lblGame3.BackColor = Color.Transparent;
             btnGame3.Font = new Font(btnGame3.Font, FontStyle.Bold);
+            */
         }
 
         private void btnGame1_Click(object sender, EventArgs e)
         {
             Game1 newForm = new Game1();
+            this.Hide();
             if (newForm.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
 
@@ -73,12 +74,18 @@ namespace NICK_Proekt
 
         private void btnGame2_Click(object sender, EventArgs e)
         {
+            Game2 game2 = new Game2();
+            this.Hide();
+            if (game2.ShowDialog() == DialogResult.OK)
+            {
 
+            }
         }
 
         private void btnLearnAnimals_Click(object sender, EventArgs e)
         {
             StranicaZaUcenje stranicaZaUcenje = new StranicaZaUcenje();
+            this.Hide();
             if (stranicaZaUcenje.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
 
