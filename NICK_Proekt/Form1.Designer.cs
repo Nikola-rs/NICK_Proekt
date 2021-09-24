@@ -104,9 +104,9 @@
             // 
             this.Begin.BackColor = System.Drawing.Color.Transparent;
             this.Begin.Image = global::NICK_Proekt.Properties.Resources.startButton1;
-            this.Begin.Location = new System.Drawing.Point(374, 383);
+            this.Begin.Location = new System.Drawing.Point(367, 378);
             this.Begin.Name = "Begin";
-            this.Begin.Size = new System.Drawing.Size(82, 70);
+            this.Begin.Size = new System.Drawing.Size(89, 83);
             this.Begin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Begin.TabIndex = 9;
             this.Begin.TabStop = false;

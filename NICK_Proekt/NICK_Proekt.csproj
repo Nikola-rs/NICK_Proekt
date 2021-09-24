@@ -255,5 +255,35 @@
   <ItemGroup>
     <None Include="Resources\pngaaa.com-2517951.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dogg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\catt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngaaa.com-44691711.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pozadina22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pozadina222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\catt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dogg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parrott1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

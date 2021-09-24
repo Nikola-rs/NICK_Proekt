@@ -15,6 +15,11 @@ namespace NICK_Proekt
         public GreskaPogodenoZivotno()
         {
             InitializeComponent();
+
+            pictureBox1.BackColor = Color.Transparent;
+            label1.BackColor = Color.Transparent;
+
+
         }
 
         private void GreskaPogodenoZivotno_Load(object sender, EventArgs e)

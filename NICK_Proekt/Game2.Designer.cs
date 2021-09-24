@@ -52,15 +52,16 @@
             // lblNaslov
             // 
             this.lblNaslov.AutoSize = true;
+            this.lblNaslov.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNaslov.Location = new System.Drawing.Point(204, 9);
             this.lblNaslov.Name = "lblNaslov";
-            this.lblNaslov.Size = new System.Drawing.Size(361, 13);
+            this.lblNaslov.Size = new System.Drawing.Size(358, 16);
             this.lblNaslov.TabIndex = 0;
             this.lblNaslov.Text = "ДАЛИ МОЖЕШ ДА ГИ ПОВРЗИШ ЖИВОТНИТЕ СО НИВНОТО ИМЕ?";
             // 
             // pbDog
             // 
-            this.pbDog.Image = global::NICK_Proekt.Properties.Resources.dog;
+            this.pbDog.Image = global::NICK_Proekt.Properties.Resources.dogg;
             this.pbDog.Location = new System.Drawing.Point(183, 68);
             this.pbDog.Name = "pbDog";
             this.pbDog.Size = new System.Drawing.Size(100, 94);
@@ -70,7 +71,7 @@
             // 
             // pbCat
             // 
-            this.pbCat.Image = global::NICK_Proekt.Properties.Resources.cat;
+            this.pbCat.Image = global::NICK_Proekt.Properties.Resources.catt;
             this.pbCat.Location = new System.Drawing.Point(477, 68);
             this.pbCat.Name = "pbCat";
             this.pbCat.Size = new System.Drawing.Size(100, 94);
@@ -80,7 +81,7 @@
             // 
             // pbParrot
             // 
-            this.pbParrot.Image = global::NICK_Proekt.Properties.Resources.parrot;
+            this.pbParrot.Image = global::NICK_Proekt.Properties.Resources.parrott;
             this.pbParrot.Location = new System.Drawing.Point(183, 231);
             this.pbParrot.Name = "pbParrot";
             this.pbParrot.Size = new System.Drawing.Size(100, 94);
@@ -100,6 +101,7 @@
             // 
             // lbforDog
             // 
+            this.lbforDog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
             this.lbforDog.FormattingEnabled = true;
             this.lbforDog.Items.AddRange(new object[] {
             "Куче",
@@ -114,6 +116,7 @@
             // 
             // lbForParrot
             // 
+            this.lbForParrot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
             this.lbForParrot.FormattingEnabled = true;
             this.lbForParrot.Items.AddRange(new object[] {
             "Куче",
@@ -128,6 +131,7 @@
             // 
             // lbForMouse
             // 
+            this.lbForMouse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
             this.lbForMouse.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lbForMouse.FormattingEnabled = true;
             this.lbForMouse.Items.AddRange(new object[] {
@@ -143,6 +147,7 @@
             // 
             // lbForCat
             // 
+            this.lbForCat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
             this.lbForCat.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbForCat.FormattingEnabled = true;
             this.lbForCat.Items.AddRange(new object[] {
@@ -218,7 +223,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::NICK_Proekt.Properties.Resources.Pozadina21;
+            this.BackgroundImage = global::NICK_Proekt.Properties.Resources.pozadina222;
             this.ClientSize = new System.Drawing.Size(800, 481);
             this.Controls.Add(this.btnBackOnGames);
             this.Controls.Add(this.lblMouse);
@@ -237,6 +242,7 @@
             this.Controls.Add(this.lblNaslov);
             this.Name = "Game2";
             this.Text = "Game2";
+            this.Load += new System.EventHandler(this.Game2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbDog)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbParrot)).EndInit();

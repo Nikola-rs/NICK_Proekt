@@ -15,8 +15,14 @@ namespace NICK_Proekt
         public TocnoPogodenoZivotno()
         {
             InitializeComponent();
-            
-            /* Ako nekoj znae neka go implimintire
+
+            lblTocno.BackColor = Color.Transparent;
+            label1.BackColor = Color.Transparent;
+            pictureBox1.BackColor = Color.Transparent;
+
+
+            /* Problemot e kako generiraniot random broj od froma game1 da se prenese vo ovaa forma. 
+            Ako nekoj znae neka go implimintire
             Game1 game1 = new Game1();
             int randon_number = game1.random_number;
             if(randon_number == 1)
@@ -44,6 +50,11 @@ namespace NICK_Proekt
             {
 
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

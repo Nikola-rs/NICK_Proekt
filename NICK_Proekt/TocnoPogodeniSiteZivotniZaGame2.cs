@@ -15,6 +15,8 @@ namespace NICK_Proekt
         public TocnoPogodeniSiteZivotniZaGame2()
         {
             InitializeComponent();
+            pictureBox1.BackColor = Color.Transparent;
+            label1.BackColor = Color.Transparent;
         }
 
         private void btnIgrajPovtorno_Click(object sender, EventArgs e)

@@ -29,42 +29,37 @@
         private void InitializeComponent()
         {
             this.lblNaslov = new System.Windows.Forms.Label();
-            this.picCat = new System.Windows.Forms.PictureBox();
             this.picDog = new System.Windows.Forms.PictureBox();
             this.picParrot = new System.Windows.Forms.PictureBox();
             this.btnBackOnGames = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.picCat)).BeginInit();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.picCat = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picDog)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picParrot)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCat)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNaslov
             // 
             this.lblNaslov.AutoSize = true;
-            this.lblNaslov.Location = new System.Drawing.Point(275, 114);
+            this.lblNaslov.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
+            this.lblNaslov.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNaslov.Location = new System.Drawing.Point(326, 106);
             this.lblNaslov.Name = "lblNaslov";
-            this.lblNaslov.Size = new System.Drawing.Size(239, 13);
+            this.lblNaslov.Size = new System.Drawing.Size(178, 54);
             this.lblNaslov.TabIndex = 0;
-            this.lblNaslov.Text = "МОЖЕШ ЛИ ДА ГО ПРЕПОЗНАЕШ КУЧЕТО?";
+            this.lblNaslov.Text = "МОЖЕШ ЛИ \r\nДА ГО ПРЕПОЗНАЕШ \r\nКУЧЕТО?";
+            this.lblNaslov.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lblNaslov.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // picCat
-            // 
-            this.picCat.Image = global::NICK_Proekt.Properties.Resources.cat;
-            this.picCat.Location = new System.Drawing.Point(346, 211);
-            this.picCat.Name = "picCat";
-            this.picCat.Size = new System.Drawing.Size(100, 115);
-            this.picCat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picCat.TabIndex = 1;
-            this.picCat.TabStop = false;
-            this.picCat.Click += new System.EventHandler(this.picCat_Click);
             // 
             // picDog
             // 
-            this.picDog.Image = global::NICK_Proekt.Properties.Resources.dog;
-            this.picDog.Location = new System.Drawing.Point(104, 211);
+            this.picDog.BackColor = System.Drawing.Color.Transparent;
+            this.picDog.Image = global::NICK_Proekt.Properties.Resources.dogg;
+            this.picDog.Location = new System.Drawing.Point(67, 227);
             this.picDog.Name = "picDog";
-            this.picDog.Size = new System.Drawing.Size(100, 115);
+            this.picDog.Size = new System.Drawing.Size(117, 124);
             this.picDog.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picDog.TabIndex = 2;
             this.picDog.TabStop = false;
@@ -72,10 +67,11 @@
             // 
             // picParrot
             // 
-            this.picParrot.Image = global::NICK_Proekt.Properties.Resources.parrot;
-            this.picParrot.Location = new System.Drawing.Point(582, 211);
+            this.picParrot.BackColor = System.Drawing.Color.Transparent;
+            this.picParrot.Image = global::NICK_Proekt.Properties.Resources.parrott;
+            this.picParrot.Location = new System.Drawing.Point(610, 227);
             this.picParrot.Name = "picParrot";
-            this.picParrot.Size = new System.Drawing.Size(100, 115);
+            this.picParrot.Size = new System.Drawing.Size(117, 124);
             this.picParrot.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picParrot.TabIndex = 3;
             this.picParrot.TabStop = false;
@@ -83,30 +79,57 @@
             // 
             // btnBackOnGames
             // 
-            this.btnBackOnGames.Location = new System.Drawing.Point(25, 12);
+            this.btnBackOnGames.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(208)))), ((int)(((byte)(240)))));
+            this.btnBackOnGames.Location = new System.Drawing.Point(3, 2);
             this.btnBackOnGames.Name = "btnBackOnGames";
-            this.btnBackOnGames.Size = new System.Drawing.Size(75, 23);
+            this.btnBackOnGames.Size = new System.Drawing.Size(52, 33);
             this.btnBackOnGames.TabIndex = 4;
             this.btnBackOnGames.Text = "Назад";
-            this.btnBackOnGames.UseVisualStyleBackColor = true;
+            this.btnBackOnGames.UseVisualStyleBackColor = false;
             this.btnBackOnGames.Click += new System.EventHandler(this.btnBackOnGames_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.Image = global::NICK_Proekt.Properties.Resources.blob;
+            this.pictureBox6.Location = new System.Drawing.Point(190, 33);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(414, 393);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 9;
+            this.pictureBox6.TabStop = false;
+            // 
+            // picCat
+            // 
+            this.picCat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
+            this.picCat.Image = global::NICK_Proekt.Properties.Resources.catt;
+            this.picCat.Location = new System.Drawing.Point(357, 227);
+            this.picCat.Name = "picCat";
+            this.picCat.Size = new System.Drawing.Size(117, 124);
+            this.picCat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picCat.TabIndex = 1;
+            this.picCat.TabStop = false;
+            this.picCat.Click += new System.EventHandler(this.picCat_Click);
             // 
             // Game1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::NICK_Proekt.Properties.Resources.Pozadina1;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::NICK_Proekt.Properties.Resources.background1;
+            this.ClientSize = new System.Drawing.Size(770, 456);
             this.Controls.Add(this.btnBackOnGames);
             this.Controls.Add(this.picParrot);
             this.Controls.Add(this.picDog);
             this.Controls.Add(this.picCat);
             this.Controls.Add(this.lblNaslov);
+            this.Controls.Add(this.pictureBox6);
+            this.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Game1";
             this.Text = "Game1";
-            ((System.ComponentModel.ISupportInitialize)(this.picCat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDog)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picParrot)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCat)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,9 +138,10 @@
         #endregion
 
         private System.Windows.Forms.Label lblNaslov;
-        private System.Windows.Forms.PictureBox picCat;
         private System.Windows.Forms.PictureBox picDog;
         private System.Windows.Forms.PictureBox picParrot;
         private System.Windows.Forms.Button btnBackOnGames;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox picCat;
     }
 }

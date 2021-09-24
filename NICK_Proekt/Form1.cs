@@ -15,7 +15,6 @@ namespace NICK_Proekt
         public Form1()
         {
             InitializeComponent();
-            ucimeZaZivotni.ForeColor = Color.FromArgb(88, 202, 0);
         }
 
         

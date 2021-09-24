@@ -20,10 +20,7 @@ namespace NICK_Proekt
         private void Informativna_stranica_Load(object sender, EventArgs e)
         {
             
-            //Svojstva za labela informacii
-            lblInformacii.BackColor = Color.Transparent;
-            lblInformacii.AutoSize = true;
-            lblInformacii.Font = new Font(lblInformacii.Font, FontStyle.Bold);
+            
             /*
             //svojstva za lblGame1
             lblGame1.Text = "Целта на оваа игра е да го препознаето типот на\nживотното. Животните  се  дел  од  нашиот  живот,\nтие  нè  прават  среќни  и  всушност тие се наши\nдругари. За таа цел, овој дел од  играта овозмо-\nжува токму препозавање и понатамошно учење\nна животни. ";
@@ -90,6 +87,16 @@ namespace NICK_Proekt
             {
 
             }
+        }
+
+        private void lblInformacii_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

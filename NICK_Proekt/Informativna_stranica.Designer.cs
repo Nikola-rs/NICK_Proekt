@@ -35,21 +35,37 @@
             this.btnGame3 = new System.Windows.Forms.Button();
             this.btnLearnAnimals = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // lblInformacii
             // 
             this.lblInformacii.AutoSize = true;
-            this.lblInformacii.Location = new System.Drawing.Point(357, 9);
+            this.lblInformacii.BackColor = System.Drawing.Color.Transparent;
+            this.lblInformacii.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInformacii.Location = new System.Drawing.Point(380, 9);
             this.lblInformacii.Name = "lblInformacii";
-            this.lblInformacii.Size = new System.Drawing.Size(125, 13);
+            this.lblInformacii.Size = new System.Drawing.Size(68, 27);
             this.lblInformacii.TabIndex = 0;
-            this.lblInformacii.Text = "Информации за игрите";
+            this.lblInformacii.Text = "ИГРИ";
+            this.lblInformacii.Click += new System.EventHandler(this.lblInformacii_Click);
             // 
             // btnGame1
             // 
             this.btnGame1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
+            this.btnGame1.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGame1.Location = new System.Drawing.Point(310, 101);
             this.btnGame1.Name = "btnGame1";
             this.btnGame1.Size = new System.Drawing.Size(202, 42);
@@ -61,17 +77,19 @@
             // btnGame2
             // 
             this.btnGame2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
+            this.btnGame2.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGame2.Location = new System.Drawing.Point(310, 192);
             this.btnGame2.Name = "btnGame2";
             this.btnGame2.Size = new System.Drawing.Size(202, 42);
             this.btnGame2.TabIndex = 4;
-            this.btnGame2.Text = "ПОВРЗУВАЊЕ НА ЖИВОТНИТЕ";
+            this.btnGame2.Text = "ПОВРЗУВАЊЕ НА ЖИВОТНИ";
             this.btnGame2.UseVisualStyleBackColor = false;
             this.btnGame2.Click += new System.EventHandler(this.btnGame2_Click);
             // 
             // btnGame3
             // 
             this.btnGame3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
+            this.btnGame3.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGame3.Location = new System.Drawing.Point(310, 280);
             this.btnGame3.Name = "btnGame3";
             this.btnGame3.Size = new System.Drawing.Size(202, 42);
@@ -82,12 +100,14 @@
             // 
             // btnLearnAnimals
             // 
-            this.btnLearnAnimals.Location = new System.Drawing.Point(625, 415);
+            this.btnLearnAnimals.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(245)))), ((int)(((byte)(28)))));
+            this.btnLearnAnimals.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLearnAnimals.Location = new System.Drawing.Point(591, 43);
             this.btnLearnAnimals.Name = "btnLearnAnimals";
-            this.btnLearnAnimals.Size = new System.Drawing.Size(131, 23);
+            this.btnLearnAnimals.Size = new System.Drawing.Size(151, 34);
             this.btnLearnAnimals.TabIndex = 8;
-            this.btnLearnAnimals.Text = "Научи ги животните\r\n";
-            this.btnLearnAnimals.UseVisualStyleBackColor = true;
+            this.btnLearnAnimals.Text = "НАУЧИ ГИ ЖИВОТНИТЕ";
+            this.btnLearnAnimals.UseVisualStyleBackColor = false;
             this.btnLearnAnimals.Click += new System.EventHandler(this.btnLearnAnimals_Click);
             // 
             // pictureBox6
@@ -101,12 +121,97 @@
             this.pictureBox6.TabIndex = 9;
             this.pictureBox6.TabStop = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::NICK_Proekt.Properties.Resources.dogg1;
+            this.pictureBox1.Location = new System.Drawing.Point(144, 93);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(57, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::NICK_Proekt.Properties.Resources.catt1;
+            this.pictureBox2.Location = new System.Drawing.Point(51, 93);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(57, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 11;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::NICK_Proekt.Properties.Resources.pngaaa1;
+            this.pictureBox3.Location = new System.Drawing.Point(104, 101);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(43, 42);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 12;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::NICK_Proekt.Properties.Resources.catt1;
+            this.pictureBox4.Location = new System.Drawing.Point(21, 184);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(57, 50);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 13;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Image = global::NICK_Proekt.Properties.Resources.dogg1;
+            this.pictureBox5.Location = new System.Drawing.Point(117, 184);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(57, 50);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 14;
+            this.pictureBox5.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(73, 206);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 14);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "МАЧЕ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(166, 206);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 14);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "КУЧЕ";
+            // 
             // Informativna_stranica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(768, 450);
+            this.ClientSize = new System.Drawing.Size(770, 456);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnLearnAnimals);
             this.Controls.Add(this.btnGame3);
             this.Controls.Add(this.btnGame2);
@@ -117,6 +222,11 @@
             this.Text = "Informativna_stranica";
             this.Load += new System.EventHandler(this.Informativna_stranica_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -130,5 +240,12 @@
         private System.Windows.Forms.Button btnGame3;
         private System.Windows.Forms.Button btnLearnAnimals;
         private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

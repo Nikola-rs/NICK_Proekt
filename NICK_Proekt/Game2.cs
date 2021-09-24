@@ -15,8 +15,17 @@ namespace NICK_Proekt
         public Game2()
         {
             InitializeComponent();
-            //lbForMouse.BackColor = Color.Transparent;
-            
+            // this doesnt work lbForMouse.BackColor = Color.Transparent;
+            // making all transparent for better looking
+            pbCat.BackColor = Color.Transparent;
+            pbDog.BackColor = Color.Transparent;
+            pbParrot.BackColor = Color.Transparent;
+            pbMouse.BackColor = Color.Transparent;
+            lblNaslov.BackColor = Color.Transparent;
+            lblCat.BackColor = Color.Transparent;
+            lblDog.BackColor = Color.Transparent;
+            lblParrot.BackColor = Color.Transparent;
+            lblMouse.BackColor = Color.Transparent;
         }
 
         private void lblMouse_Click(object sender, EventArgs e)
@@ -136,6 +145,11 @@ namespace NICK_Proekt
             {
 
             }
+        }
+
+        private void Game2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -39,47 +39,49 @@ namespace NICK_Proekt
             // pictureBox1
             // 
             this.pictureBox1.Image = global::NICK_Proekt.Properties.Resources.confetti;
-            this.pictureBox1.Location = new System.Drawing.Point(82, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(68, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(716, 357);
+            this.pictureBox1.Size = new System.Drawing.Size(730, 357);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // btnIgrajPovtorno
             // 
+            this.btnIgrajPovtorno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(208)))), ((int)(((byte)(240)))));
             this.btnIgrajPovtorno.Location = new System.Drawing.Point(381, 415);
             this.btnIgrajPovtorno.Name = "btnIgrajPovtorno";
             this.btnIgrajPovtorno.Size = new System.Drawing.Size(123, 23);
             this.btnIgrajPovtorno.TabIndex = 7;
             this.btnIgrajPovtorno.Text = "Играј повторно";
-            this.btnIgrajPovtorno.UseVisualStyleBackColor = true;
+            this.btnIgrajPovtorno.UseVisualStyleBackColor = false;
             this.btnIgrajPovtorno.Click += new System.EventHandler(this.btnIgrajPovtorno_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(368, 387);
+            this.label1.Location = new System.Drawing.Point(347, 387);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(149, 13);
+            this.label1.Size = new System.Drawing.Size(188, 13);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Браво! Ги избра сите точно.";
+            this.label1.Text = "Браво! Ги избра сите имиња точно.";
             // 
             // btnNazadIzborIgra
             // 
-            this.btnNazadIzborIgra.Location = new System.Drawing.Point(82, 415);
+            this.btnNazadIzborIgra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(245)))), ((int)(((byte)(28)))));
+            this.btnNazadIzborIgra.Location = new System.Drawing.Point(2, 415);
             this.btnNazadIzborIgra.Name = "btnNazadIzborIgra";
-            this.btnNazadIzborIgra.Size = new System.Drawing.Size(93, 23);
+            this.btnNazadIzborIgra.Size = new System.Drawing.Size(99, 23);
             this.btnNazadIzborIgra.TabIndex = 8;
-            this.btnNazadIzborIgra.Text = "Назад";
-            this.btnNazadIzborIgra.UseVisualStyleBackColor = true;
+            this.btnNazadIzborIgra.Text = "Назад до игрите";
+            this.btnNazadIzborIgra.UseVisualStyleBackColor = false;
             this.btnNazadIzborIgra.Click += new System.EventHandler(this.btnNazadIzborIgra_Click);
             // 
             // TocnoPogodeniSiteZivotniZaGame2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::NICK_Proekt.Properties.Resources.Pozadina2;
+            this.BackgroundImage = global::NICK_Proekt.Properties.Resources.pozadina222;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnNazadIzborIgra);
             this.Controls.Add(this.btnIgrajPovtorno);

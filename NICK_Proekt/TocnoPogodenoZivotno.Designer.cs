@@ -41,7 +41,7 @@
             this.pictureBox1.Image = global::NICK_Proekt.Properties.Resources.confetti;
             this.pictureBox1.Location = new System.Drawing.Point(72, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(836, 295);
+            this.pictureBox1.Size = new System.Drawing.Size(836, 330);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -49,47 +49,52 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(491, 334);
+            this.label1.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(497, 334);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.Size = new System.Drawing.Size(48, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "Браво";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblTocno
             // 
             this.lblTocno.AutoSize = true;
-            this.lblTocno.Location = new System.Drawing.Point(458, 362);
+            this.lblTocno.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTocno.Location = new System.Drawing.Point(438, 359);
             this.lblTocno.Name = "lblTocno";
-            this.lblTocno.Size = new System.Drawing.Size(117, 13);
+            this.lblTocno.Size = new System.Drawing.Size(168, 16);
             this.lblTocno.TabIndex = 2;
             this.lblTocno.Text = "Го погоди животното!";
             // 
             // btnNazadIzborIgra
             // 
-            this.btnNazadIzborIgra.Location = new System.Drawing.Point(72, 415);
+            this.btnNazadIzborIgra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(208)))), ((int)(((byte)(240)))));
+            this.btnNazadIzborIgra.Location = new System.Drawing.Point(441, 415);
             this.btnNazadIzborIgra.Name = "btnNazadIzborIgra";
-            this.btnNazadIzborIgra.Size = new System.Drawing.Size(93, 23);
+            this.btnNazadIzborIgra.Size = new System.Drawing.Size(165, 23);
             this.btnNazadIzborIgra.TabIndex = 3;
-            this.btnNazadIzborIgra.Text = "Назад";
-            this.btnNazadIzborIgra.UseVisualStyleBackColor = true;
+            this.btnNazadIzborIgra.Text = "Продолжи кон друга игра";
+            this.btnNazadIzborIgra.UseVisualStyleBackColor = false;
             this.btnNazadIzborIgra.Click += new System.EventHandler(this.btnNazadIzborIgra_Click);
             // 
             // btnIgrajPovtorno
             // 
-            this.btnIgrajPovtorno.Location = new System.Drawing.Point(452, 390);
+            this.btnIgrajPovtorno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(208)))), ((int)(((byte)(240)))));
+            this.btnIgrajPovtorno.Location = new System.Drawing.Point(462, 386);
             this.btnIgrajPovtorno.Name = "btnIgrajPovtorno";
             this.btnIgrajPovtorno.Size = new System.Drawing.Size(123, 23);
             this.btnIgrajPovtorno.TabIndex = 4;
             this.btnIgrajPovtorno.Text = "Играј повторно";
-            this.btnIgrajPovtorno.UseVisualStyleBackColor = true;
+            this.btnIgrajPovtorno.UseVisualStyleBackColor = false;
             this.btnIgrajPovtorno.Click += new System.EventHandler(this.btnIgrajPovtorno_Click);
             // 
             // TocnoPogodenoZivotno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::NICK_Proekt.Properties.Resources.Pozadina2;
-            this.ClientSize = new System.Drawing.Size(929, 450);
+            this.BackgroundImage = global::NICK_Proekt.Properties.Resources.pozadina222;
+            this.ClientSize = new System.Drawing.Size(899, 450);
             this.Controls.Add(this.btnIgrajPovtorno);
             this.Controls.Add(this.btnNazadIzborIgra);
             this.Controls.Add(this.lblTocno);
