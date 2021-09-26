@@ -57,7 +57,7 @@
             this.lblNaslov.Name = "lblNaslov";
             this.lblNaslov.Size = new System.Drawing.Size(358, 16);
             this.lblNaslov.TabIndex = 0;
-            this.lblNaslov.Text = "ДАЛИ МОЖЕШ ДА ГИ ПОВРЗИШ ЖИВОТНИТЕ СО НИВНОТО ИМЕ?";
+            this.lblNaslov.Text = "ДАЛИ МОЖЕШ ДА ГИ ПОГОДИШ ЖИВОТНИТЕ СО НИВНОТО ИМЕ?";
             // 
             // pbDog
             // 
@@ -102,6 +102,7 @@
             // lbforDog
             // 
             this.lbforDog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
+            this.lbforDog.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lbforDog.FormattingEnabled = true;
             this.lbforDog.Items.AddRange(new object[] {
             "Куче",
@@ -110,13 +111,14 @@
             "Глувче"});
             this.lbforDog.Location = new System.Drawing.Point(289, 89);
             this.lbforDog.Name = "lbforDog";
-            this.lbforDog.Size = new System.Drawing.Size(120, 56);
+            this.lbforDog.Size = new System.Drawing.Size(120, 52);
             this.lbforDog.TabIndex = 9;
             this.lbforDog.SelectedIndexChanged += new System.EventHandler(this.lbforDog_SelectedIndexChanged);
             // 
             // lbForParrot
             // 
             this.lbForParrot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
+            this.lbForParrot.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lbForParrot.FormattingEnabled = true;
             this.lbForParrot.Items.AddRange(new object[] {
             "Куче",
@@ -125,7 +127,7 @@
             "Глувче"});
             this.lbForParrot.Location = new System.Drawing.Point(289, 249);
             this.lbForParrot.Name = "lbForParrot";
-            this.lbForParrot.Size = new System.Drawing.Size(120, 56);
+            this.lbForParrot.Size = new System.Drawing.Size(120, 52);
             this.lbForParrot.TabIndex = 15;
             this.lbForParrot.SelectedIndexChanged += new System.EventHandler(this.lbForParrot_SelectedIndexChanged);
             // 
@@ -148,7 +150,7 @@
             // lbForCat
             // 
             this.lbForCat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
-            this.lbForCat.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbForCat.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lbForCat.FormattingEnabled = true;
             this.lbForCat.Items.AddRange(new object[] {
             "Куче",
@@ -157,7 +159,7 @@
             "Глувче"});
             this.lbForCat.Location = new System.Drawing.Point(583, 89);
             this.lbForCat.Name = "lbForCat";
-            this.lbForCat.Size = new System.Drawing.Size(120, 54);
+            this.lbForCat.Size = new System.Drawing.Size(120, 52);
             this.lbForCat.TabIndex = 17;
             this.lbForCat.SelectedIndexChanged += new System.EventHandler(this.lbForCat_SelectedIndexChanged);
             // 
@@ -211,12 +213,13 @@
             // 
             // btnBackOnGames
             // 
-            this.btnBackOnGames.Location = new System.Drawing.Point(12, 12);
+            this.btnBackOnGames.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(245)))), ((int)(((byte)(28)))));
+            this.btnBackOnGames.Location = new System.Drawing.Point(1, 2);
             this.btnBackOnGames.Name = "btnBackOnGames";
-            this.btnBackOnGames.Size = new System.Drawing.Size(75, 23);
+            this.btnBackOnGames.Size = new System.Drawing.Size(55, 23);
             this.btnBackOnGames.TabIndex = 23;
             this.btnBackOnGames.Text = "Назад";
-            this.btnBackOnGames.UseVisualStyleBackColor = true;
+            this.btnBackOnGames.UseVisualStyleBackColor = false;
             this.btnBackOnGames.Click += new System.EventHandler(this.btnBackOnGames_Click);
             // 
             // Game2

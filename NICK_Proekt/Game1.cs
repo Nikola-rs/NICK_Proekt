@@ -13,22 +13,25 @@ namespace NICK_Proekt
     public partial class Game1 : Form
     {
         public RandomNumber randomNumber = new RandomNumber();
+
         public int random_number = 1;
         public Game1()
         {
             InitializeComponent();
+
+
             random_number = randomNumber.random_number;
             if (random_number == 1)
             {
-                lblNaslov.Text = "МОЖЕШ ЛИ ДА ГО ПРЕПОЗНАЕШ КУЧЕТО?";
+                lblNaslov.Text = "МОЖЕШ ЛИ\n ДА ГО ПРЕПОЗНАЕШ\n КУЧЕТО?";
             }
             else if(random_number == 2)
             {
-                lblNaslov.Text = "МОЖЕШ ЛИ ДА ГО ПРЕПОЗНАЕШ МАЧЕТО?";
+                lblNaslov.Text = "МОЖЕШ ЛИ\n ДА ГО ПРЕПОЗНАЕШ\n МАЧЕТО?";
             }
             else
             {
-                lblNaslov.Text = "МОЖЕШ ЛИ ДА ГО ПРЕПОЗНАЕШ ПАПАГАЛ?";
+                lblNaslov.Text = "МОЖЕШ ЛИ\n ДА ГО ПРЕПОЗНАЕШ\n ПАПАГАЛ?";
             }
         }
 

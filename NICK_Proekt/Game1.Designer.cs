@@ -45,7 +45,7 @@
             this.lblNaslov.AutoSize = true;
             this.lblNaslov.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
             this.lblNaslov.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNaslov.Location = new System.Drawing.Point(326, 106);
+            this.lblNaslov.Location = new System.Drawing.Point(313, 100);
             this.lblNaslov.Name = "lblNaslov";
             this.lblNaslov.Size = new System.Drawing.Size(178, 54);
             this.lblNaslov.TabIndex = 0;
