@@ -312,5 +312,11 @@
   <ItemGroup>
     <None Include="images\pngaaa.com-1271747.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="images\speaker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="audios\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

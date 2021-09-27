@@ -13,8 +13,6 @@ namespace NICK_Proekt
 {
     public partial class Form1 : Form
     {
-        //SoundPlayer player = new SoundPlayer(@"C:\Users\Daniela\Desktop\file_example_WAV_1MG.wav");
-        SoundPlayer player = new SoundPlayer("file_example_WAV_1MG.wav");
         public Form1()
         {
             InitializeComponent();
@@ -41,7 +39,6 @@ namespace NICK_Proekt
 
         private void Begin_Click_1(object sender, EventArgs e)
         {
-            player.Play();
             Informativna_stranica newForm = new Informativna_stranica();
             this.Hide();
             if (newForm.ShowDialog() == System.Windows.Forms.DialogResult.OK)
