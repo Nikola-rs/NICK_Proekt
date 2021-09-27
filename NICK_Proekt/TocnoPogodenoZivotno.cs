@@ -56,5 +56,15 @@ namespace NICK_Proekt
         {
 
         }
+
+        private void TocnoPogodenoZivotno_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
     }
 }

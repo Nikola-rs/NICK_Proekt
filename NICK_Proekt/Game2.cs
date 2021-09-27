@@ -21,7 +21,6 @@ namespace NICK_Proekt
             pbDog.BackColor = Color.Transparent;
             pbParrot.BackColor = Color.Transparent;
             pbMouse.BackColor = Color.Transparent;
-            lblNaslov.BackColor = Color.Transparent;
             lblCat.BackColor = Color.Transparent;
             lblDog.BackColor = Color.Transparent;
             lblParrot.BackColor = Color.Transparent;
@@ -39,12 +38,12 @@ namespace NICK_Proekt
             if (lbforDog.SelectedIndex!=0)
             {
                 lbforDog.SelectedIndex = -1;
-                lblDog.Text = "Избра грешка име на животно, пробај повторно!";
+                lblDog.Text = "Грешка! Пробај повторно";
             }
             else
             {
                 lbforDog.Enabled = false;
-                lblDog.Text = "Браво! Го избра точното име на животното.";
+                lblDog.Text = "Го избра точното име";
             }
 
 
@@ -65,12 +64,12 @@ namespace NICK_Proekt
             if (lbForCat.SelectedItem != null && lbForCat.SelectedItem.ToString().Equals("Маче"))
             { 
                 lbForCat.Enabled = false;
-                lblCat.Text = "Браво! Го избра точното име на животното.";
+                lblCat.Text = "Го избра точното име";
             }
             else
             {
                 lbForCat.SelectedIndex = -1;
-                lblCat.Text = "Избра грешка име на животно, пробај повторно!";
+                lblCat.Text = "Грешка! Пробај повторно";
             }
 
 
@@ -91,12 +90,12 @@ namespace NICK_Proekt
             if (lbForParrot.SelectedItem != null && lbForParrot.SelectedItem.ToString().Equals("Папагал"))
             {
                 lbForParrot.Enabled = false;
-                lblParrot.Text = "Браво! Го избра точното име на животното.";
+                lblParrot.Text = "Го избра точното име";
             }
             else
             {
                 lbForParrot.SelectedIndex = -1;
-                lblParrot.Text = "Избра грешка име на животно, пробај повторно!";
+                lblParrot.Text = "Грешка! Пробај повторно";
             }
 
 
@@ -117,12 +116,12 @@ namespace NICK_Proekt
             if (lbForMouse.SelectedItem != null && lbForMouse.SelectedItem.ToString().Equals("Глувче"))
             {
                 lbForMouse.Enabled = false;
-                lblMouse.Text = "Браво! Го избра точното име на животното.";   
+                lblMouse.Text = "Го избра точното име";   
             }
             else
             {
                 lbForMouse.SelectedIndex = -1;
-                lblMouse.Text = "Избра грешка име на животно, пробај повторно!";
+                lblMouse.Text = "Грешка! Пробај повторно";
             }
 
 
@@ -150,6 +149,16 @@ namespace NICK_Proekt
         private void Game2_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void lblNaslov_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
         }
     }
 }

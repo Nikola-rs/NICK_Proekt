@@ -63,6 +63,36 @@ namespace NICK_Proekt.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1271590_middle {
+            get {
+                object obj = ResourceManager.GetObject("1271590-middle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1271590_middle1 {
+            get {
+                object obj = ResourceManager.GetObject("1271590-middle1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1271590_middle2 {
+            get {
+                object obj = ResourceManager.GetObject("1271590-middle2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap background {
             get {
                 object obj = ResourceManager.GetObject("background", resourceCulture);
@@ -146,6 +176,76 @@ namespace NICK_Proekt.Properties {
         internal static System.Drawing.Bitmap confetti {
             get {
                 object obj = ResourceManager.GetObject("confetti", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap confetti_8807 {
+            get {
+                object obj = ResourceManager.GetObject("confetti-8807", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap confetti_8821 {
+            get {
+                object obj = ResourceManager.GetObject("confetti-8821", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap confetti_88211 {
+            get {
+                object obj = ResourceManager.GetObject("confetti-88211", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Confetti_PNG_Clipart {
+            get {
+                object obj = ResourceManager.GetObject("Confetti-PNG-Clipart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Confetti_PNG_Clipart1 {
+            get {
+                object obj = ResourceManager.GetObject("Confetti-PNG-Clipart1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap correctAnswerEmoji {
+            get {
+                object obj = ResourceManager.GetObject("correctAnswerEmoji", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap correctAnswerEmoji1 {
+            get {
+                object obj = ResourceManager.GetObject("correctAnswerEmoji1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -266,6 +366,36 @@ namespace NICK_Proekt.Properties {
         internal static System.Drawing.Bitmap parrott1 {
             get {
                 object obj = ResourceManager.GetObject("parrott1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngaaa_com_1271590 {
+            get {
+                object obj = ResourceManager.GetObject("pngaaa.com-1271590", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngaaa_com_1271639 {
+            get {
+                object obj = ResourceManager.GetObject("pngaaa.com-1271639", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngaaa_com_1271747 {
+            get {
+                object obj = ResourceManager.GetObject("pngaaa.com-1271747", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -536,6 +666,16 @@ namespace NICK_Proekt.Properties {
         internal static System.Drawing.Bitmap wrongAnswerEmoji {
             get {
                 object obj = ResourceManager.GetObject("wrongAnswerEmoji", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wrongAnswerEmoji1 {
+            get {
+                object obj = ResourceManager.GetObject("wrongAnswerEmoji1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

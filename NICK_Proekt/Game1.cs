@@ -31,7 +31,7 @@ namespace NICK_Proekt
             }
             else
             {
-                lblNaslov.Text = "МОЖЕШ ЛИ\n ДА ГО ПРЕПОЗНАЕШ\n ПАПАГАЛ?";
+                lblNaslov.Text = "МОЖЕШ ЛИ\n ДА ГО ПРЕПОЗНАЕШ\n ПАПАГАЛОТ?";
             }
         }
 
@@ -121,6 +121,16 @@ namespace NICK_Proekt
             {
 
             }
+        }
+
+        private void Game1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
         }
     }
 }

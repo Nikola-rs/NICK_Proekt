@@ -36,6 +36,7 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.Begin = new System.Windows.Forms.PictureBox();
             this.ucimeZaZivotni = new System.Windows.Forms.Label();
+            this.btnExit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -125,12 +126,25 @@
             this.ucimeZaZivotni.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.ucimeZaZivotni.Click += new System.EventHandler(this.ucimeZaZivotni_Click);
             // 
+            // btnExit
+            // 
+            this.btnExit.BackColor = System.Drawing.Color.Crimson;
+            this.btnExit.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(634, 2);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(134, 30);
+            this.btnExit.TabIndex = 11;
+            this.btnExit.Text = "Исклучи ја играта";
+            this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(20F, 39F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(770, 456);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.ucimeZaZivotni);
             this.Controls.Add(this.Begin);
             this.Controls.Add(this.pictureBox5);
@@ -161,6 +175,7 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox Begin;
         private System.Windows.Forms.Label ucimeZaZivotni;
+        private System.Windows.Forms.Button btnExit;
     }
 }
 

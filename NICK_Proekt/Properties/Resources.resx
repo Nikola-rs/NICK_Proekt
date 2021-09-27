@@ -133,11 +133,14 @@
   <data name="pngaaa7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngaaa.com-14534722.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="confetti-8821" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\confetti-8821.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="parrott" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\parrott.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngaaa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngaaa.com-4469171.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1271590-middle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\1271590-middle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wrongAnswerEmoji" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\wrongAnswerEmoji.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,23 +148,35 @@
   <data name="pngaaa6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngaaa.com-14534721.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1271590-middle2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\1271590-middle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Pozadina21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Pozadina2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="parrot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\parrot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pngaaa.com-2808365" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\pngaaa.com-2808365.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Confetti-PNG-Clipart1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Confetti-PNG-Clipart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pngaaa3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\pngaaa.com-954227.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pngaaa4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\pngaaa.com-2238943.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngaaa.com-954227" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngaaa.com-954227.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngaaa.com-1271747" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\pngaaa.com-1271747.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngaaa.com-1271639" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\pngaaa.com-1271639.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="catt2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\catt2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,14 +187,17 @@
   <data name="pngaaa.com-1453472" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngaaa.com-1453472.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="wrongAnswerEmoji1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\wrongAnswerEmoji.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pngaaa.com-4469171" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngaaa.com-4469171.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dogg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dogg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngaaa.com-447759" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngaaa.com-447759.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngaaa9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngaaa.com-2517927.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,14 +214,17 @@
   <data name="pngaaa.com-2238943" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngaaa.com-2238943.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\cat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="catt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\catt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngaaa10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\pngaaa.com-1271639.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngaaa.com-2517927" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\pngaaa.com-2517927.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="parrott1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\parrott1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1271590-middle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\1271590-middle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dog" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\dog.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,14 +232,29 @@
   <data name="pozadina22" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pozadina22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Confetti-PNG-Clipart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Confetti-PNG-Clipart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Pozadina11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Pozadina1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="parrot" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\parrot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="horse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\horse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngaaa.com-1271590" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\pngaaa.com-1271590.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngaaa8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngaaa.com-9542271.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parrott1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parrott1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngaaa.com-447759" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngaaa.com-447759.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="correctAnswerEmoji" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\correctAnswerEmoji.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="catt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\catt1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,11 +262,11 @@
   <data name="confetti" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\confetti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="catt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\catt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngaaa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngaaa.com-4469171.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngaaa8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngaaa.com-9542271.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="confetti-88211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\confetti-8821.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dogg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,8 +274,11 @@
   <data name="startButton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\startButton1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngaaa.com-2808365" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\pngaaa.com-2808365.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="horse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\horse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="confetti-8807" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\confetti-8807.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pozadina222" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pozadina222.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -247,19 +286,22 @@
   <data name="pngaaa5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\pngaaa.com-447759.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Pozadina2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\Pozadina2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="dog1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\dog.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngaaa10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngaaa.com-44691711.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Pozadina2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Pozadina2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngaaa4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\pngaaa.com-2238943.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\cat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\mouse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\background1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="correctAnswerEmoji1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\correctAnswerEmoji.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -285,5 +285,32 @@
   <ItemGroup>
     <None Include="Resources\background1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="images\wrongAnswerEmoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\correctAnswerEmoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\confetti-8807.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\confetti-8821.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Confetti-PNG-Clipart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\1271590-middle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\pngaaa.com-1271590.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\pngaaa.com-1271639.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\pngaaa.com-1271747.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
