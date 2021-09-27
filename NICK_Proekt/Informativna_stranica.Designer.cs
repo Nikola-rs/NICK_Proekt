@@ -43,12 +43,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
+            this.pictureBoxChooseAGame = new System.Windows.Forms.PictureBox();
+            this.greenButtonLearn = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxChooseAGame)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.greenButtonLearn)).BeginInit();
             this.SuspendLayout();
             // 
             // lblInformacii
@@ -212,12 +216,38 @@
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // pictureBoxChooseAGame
+            // 
+            this.pictureBoxChooseAGame.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxChooseAGame.Image = global::NICK_Proekt.Properties.Resources.speaker;
+            this.pictureBoxChooseAGame.Location = new System.Drawing.Point(226, 54);
+            this.pictureBoxChooseAGame.Name = "pictureBoxChooseAGame";
+            this.pictureBoxChooseAGame.Size = new System.Drawing.Size(33, 37);
+            this.pictureBoxChooseAGame.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxChooseAGame.TabIndex = 28;
+            this.pictureBoxChooseAGame.TabStop = false;
+            this.pictureBoxChooseAGame.Click += new System.EventHandler(this.pictureBoxChooseAGame_Click);
+            // 
+            // greenButtonLearn
+            // 
+            this.greenButtonLearn.BackColor = System.Drawing.Color.Transparent;
+            this.greenButtonLearn.Image = global::NICK_Proekt.Properties.Resources.speaker;
+            this.greenButtonLearn.Location = new System.Drawing.Point(552, 40);
+            this.greenButtonLearn.Name = "greenButtonLearn";
+            this.greenButtonLearn.Size = new System.Drawing.Size(33, 37);
+            this.greenButtonLearn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.greenButtonLearn.TabIndex = 29;
+            this.greenButtonLearn.TabStop = false;
+            this.greenButtonLearn.Click += new System.EventHandler(this.greenButtonLearn_Click);
+            // 
             // Informativna_stranica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(770, 456);
+            this.Controls.Add(this.greenButtonLearn);
+            this.Controls.Add(this.pictureBoxChooseAGame);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -241,6 +271,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxChooseAGame)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.greenButtonLearn)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -262,5 +294,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.PictureBox pictureBoxChooseAGame;
+        private System.Windows.Forms.PictureBox greenButtonLearn;
     }
 }

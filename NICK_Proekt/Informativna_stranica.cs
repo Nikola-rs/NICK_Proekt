@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib; 
 
 namespace NICK_Proekt
 {
     public partial class Informativna_stranica : Form
     {
+        WindowsMediaPlayer greenButton = new WindowsMediaPlayer();
+        WindowsMediaPlayer chooseGame = new WindowsMediaPlayer();
         public Informativna_stranica()
         {
             InitializeComponent();
@@ -102,6 +105,18 @@ namespace NICK_Proekt
         private void btnExit_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void greenButtonLearn_Click(object sender, EventArgs e)
+        {
+            greenButton.URL = "greenButtonLearning.m4a";
+            greenButton.controls.play();
+        }
+
+        private void pictureBoxChooseAGame_Click(object sender, EventArgs e)
+        {
+            chooseGame.URL = "chooseAGame.m4a";
+            chooseGame.controls.play();
         }
     }
 }

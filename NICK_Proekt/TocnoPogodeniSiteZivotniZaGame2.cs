@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace NICK_Proekt
 {
     public partial class TocnoPogodeniSiteZivotniZaGame2 : Form
     {
+        WindowsMediaPlayer game2AllCorrect = new WindowsMediaPlayer();
         public TocnoPogodeniSiteZivotniZaGame2()
         {
             InitializeComponent();
@@ -42,6 +44,12 @@ namespace NICK_Proekt
         private void btnExit_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void pbGame2AllCorrect_Click(object sender, EventArgs e)
+        {
+            game2AllCorrect.URL = "game2AllCorrect.m4a";
+            game2AllCorrect.controls.play();
         }
     }
 }

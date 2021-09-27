@@ -50,16 +50,16 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.btnExit = new System.Windows.Forms.Button();
-            this.pictureBoxCatAudio = new System.Windows.Forms.PictureBox();
-            this.pictureBoxMouseAudio = new System.Windows.Forms.PictureBox();
             this.pictureBoxDogAudio = new System.Windows.Forms.PictureBox();
-            this.pictureBoxParrotAudio = new System.Windows.Forms.PictureBox();
-            this.pictureBoxChickenAudio = new System.Windows.Forms.PictureBox();
-            this.pictureBoxCowAudio = new System.Windows.Forms.PictureBox();
-            this.pictureBoxSheepAudio = new System.Windows.Forms.PictureBox();
-            this.pictureBoxPigAudio = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxMouse = new System.Windows.Forms.PictureBox();
+            this.pictureBoxHorse = new System.Windows.Forms.PictureBox();
             this.pictureBoxGoatAudio = new System.Windows.Forms.PictureBox();
-            this.pictureBoxHorseAudio = new System.Windows.Forms.PictureBox();
+            this.pictureBoxPigAudio = new System.Windows.Forms.PictureBox();
+            this.pictureBoxSheepAudio = new System.Windows.Forms.PictureBox();
+            this.pictureBoxCowAudio = new System.Windows.Forms.PictureBox();
+            this.pictureBoxChickenAudio = new System.Windows.Forms.PictureBox();
+            this.pictureBoxParrotAudio = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -70,16 +70,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCatAudio)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMouseAudio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDogAudio)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxParrotAudio)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxChickenAudio)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCowAudio)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSheepAudio)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPigAudio)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMouse)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHorse)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGoatAudio)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHorseAudio)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPigAudio)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSheepAudio)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCowAudio)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxChickenAudio)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxParrotAudio)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -319,30 +319,6 @@
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // pictureBoxCatAudio
-            // 
-            this.pictureBoxCatAudio.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxCatAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
-            this.pictureBoxCatAudio.Location = new System.Drawing.Point(233, 190);
-            this.pictureBoxCatAudio.Name = "pictureBoxCatAudio";
-            this.pictureBoxCatAudio.Size = new System.Drawing.Size(33, 37);
-            this.pictureBoxCatAudio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxCatAudio.TabIndex = 26;
-            this.pictureBoxCatAudio.TabStop = false;
-            this.pictureBoxCatAudio.Click += new System.EventHandler(this.pictureBoxCatAudio_Click);
-            // 
-            // pictureBoxMouseAudio
-            // 
-            this.pictureBoxMouseAudio.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxMouseAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
-            this.pictureBoxMouseAudio.Location = new System.Drawing.Point(97, 190);
-            this.pictureBoxMouseAudio.Name = "pictureBoxMouseAudio";
-            this.pictureBoxMouseAudio.Size = new System.Drawing.Size(33, 37);
-            this.pictureBoxMouseAudio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxMouseAudio.TabIndex = 27;
-            this.pictureBoxMouseAudio.TabStop = false;
-            this.pictureBoxMouseAudio.Click += new System.EventHandler(this.pictureBoxMouseAudio_Click);
-            // 
             // pictureBoxDogAudio
             // 
             this.pictureBoxDogAudio.BackColor = System.Drawing.Color.Transparent;
@@ -355,65 +331,41 @@
             this.pictureBoxDogAudio.TabStop = false;
             this.pictureBoxDogAudio.Click += new System.EventHandler(this.pictureBoxDogAudio_Click);
             // 
-            // pictureBoxParrotAudio
+            // pictureBox11
             // 
-            this.pictureBoxParrotAudio.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxParrotAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
-            this.pictureBoxParrotAudio.Location = new System.Drawing.Point(502, 190);
-            this.pictureBoxParrotAudio.Name = "pictureBoxParrotAudio";
-            this.pictureBoxParrotAudio.Size = new System.Drawing.Size(33, 37);
-            this.pictureBoxParrotAudio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxParrotAudio.TabIndex = 29;
-            this.pictureBoxParrotAudio.TabStop = false;
-            this.pictureBoxParrotAudio.Click += new System.EventHandler(this.pictureBoxParrotAudio_Click);
+            this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox11.Image = global::NICK_Proekt.Properties.Resources.speaker;
+            this.pictureBox11.Location = new System.Drawing.Point(233, 190);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(33, 37);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 36;
+            this.pictureBox11.TabStop = false;
+            this.pictureBox11.Click += new System.EventHandler(this.pictureBox11_Click);
             // 
-            // pictureBoxChickenAudio
+            // pictureBoxMouse
             // 
-            this.pictureBoxChickenAudio.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxChickenAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
-            this.pictureBoxChickenAudio.Location = new System.Drawing.Point(636, 190);
-            this.pictureBoxChickenAudio.Name = "pictureBoxChickenAudio";
-            this.pictureBoxChickenAudio.Size = new System.Drawing.Size(33, 37);
-            this.pictureBoxChickenAudio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxChickenAudio.TabIndex = 30;
-            this.pictureBoxChickenAudio.TabStop = false;
-            this.pictureBoxChickenAudio.Click += new System.EventHandler(this.pictureBoxChickenAudio_Click);
+            this.pictureBoxMouse.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxMouse.Image = global::NICK_Proekt.Properties.Resources.speaker;
+            this.pictureBoxMouse.Location = new System.Drawing.Point(97, 190);
+            this.pictureBoxMouse.Name = "pictureBoxMouse";
+            this.pictureBoxMouse.Size = new System.Drawing.Size(33, 37);
+            this.pictureBoxMouse.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxMouse.TabIndex = 37;
+            this.pictureBoxMouse.TabStop = false;
+            this.pictureBoxMouse.Click += new System.EventHandler(this.pictureBoxMouse_Click);
             // 
-            // pictureBoxCowAudio
+            // pictureBoxHorse
             // 
-            this.pictureBoxCowAudio.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxCowAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
-            this.pictureBoxCowAudio.Location = new System.Drawing.Point(97, 393);
-            this.pictureBoxCowAudio.Name = "pictureBoxCowAudio";
-            this.pictureBoxCowAudio.Size = new System.Drawing.Size(33, 37);
-            this.pictureBoxCowAudio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxCowAudio.TabIndex = 31;
-            this.pictureBoxCowAudio.TabStop = false;
-            this.pictureBoxCowAudio.Click += new System.EventHandler(this.pictureBoxCowAudio_Click);
-            // 
-            // pictureBoxSheepAudio
-            // 
-            this.pictureBoxSheepAudio.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxSheepAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
-            this.pictureBoxSheepAudio.Location = new System.Drawing.Point(233, 393);
-            this.pictureBoxSheepAudio.Name = "pictureBoxSheepAudio";
-            this.pictureBoxSheepAudio.Size = new System.Drawing.Size(33, 37);
-            this.pictureBoxSheepAudio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxSheepAudio.TabIndex = 32;
-            this.pictureBoxSheepAudio.TabStop = false;
-            this.pictureBoxSheepAudio.Click += new System.EventHandler(this.pictureBoxSheepAudio_Click);
-            // 
-            // pictureBoxPigAudio
-            // 
-            this.pictureBoxPigAudio.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxPigAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
-            this.pictureBoxPigAudio.Location = new System.Drawing.Point(365, 393);
-            this.pictureBoxPigAudio.Name = "pictureBoxPigAudio";
-            this.pictureBoxPigAudio.Size = new System.Drawing.Size(33, 37);
-            this.pictureBoxPigAudio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxPigAudio.TabIndex = 33;
-            this.pictureBoxPigAudio.TabStop = false;
-            this.pictureBoxPigAudio.Click += new System.EventHandler(this.pictureBoxPigAudio_Click);
+            this.pictureBoxHorse.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxHorse.Image = global::NICK_Proekt.Properties.Resources.speaker;
+            this.pictureBoxHorse.Location = new System.Drawing.Point(636, 396);
+            this.pictureBoxHorse.Name = "pictureBoxHorse";
+            this.pictureBoxHorse.Size = new System.Drawing.Size(33, 37);
+            this.pictureBoxHorse.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxHorse.TabIndex = 38;
+            this.pictureBoxHorse.TabStop = false;
+            this.pictureBoxHorse.Click += new System.EventHandler(this.pictureBoxHorse_Click_1);
             // 
             // pictureBoxGoatAudio
             // 
@@ -427,17 +379,65 @@
             this.pictureBoxGoatAudio.TabStop = false;
             this.pictureBoxGoatAudio.Click += new System.EventHandler(this.pictureBoxGoatAudio_Click);
             // 
-            // pictureBoxHorseAudio
+            // pictureBoxPigAudio
             // 
-            this.pictureBoxHorseAudio.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxHorseAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
-            this.pictureBoxHorseAudio.Location = new System.Drawing.Point(636, 393);
-            this.pictureBoxHorseAudio.Name = "pictureBoxHorseAudio";
-            this.pictureBoxHorseAudio.Size = new System.Drawing.Size(33, 37);
-            this.pictureBoxHorseAudio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxHorseAudio.TabIndex = 35;
-            this.pictureBoxHorseAudio.TabStop = false;
-            this.pictureBoxHorseAudio.Click += new System.EventHandler(this.pictureBoxHorseAudio_Click);
+            this.pictureBoxPigAudio.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxPigAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
+            this.pictureBoxPigAudio.Location = new System.Drawing.Point(365, 393);
+            this.pictureBoxPigAudio.Name = "pictureBoxPigAudio";
+            this.pictureBoxPigAudio.Size = new System.Drawing.Size(33, 37);
+            this.pictureBoxPigAudio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxPigAudio.TabIndex = 33;
+            this.pictureBoxPigAudio.TabStop = false;
+            this.pictureBoxPigAudio.Click += new System.EventHandler(this.pictureBoxPigAudio_Click);
+            // 
+            // pictureBoxSheepAudio
+            // 
+            this.pictureBoxSheepAudio.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxSheepAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
+            this.pictureBoxSheepAudio.Location = new System.Drawing.Point(233, 393);
+            this.pictureBoxSheepAudio.Name = "pictureBoxSheepAudio";
+            this.pictureBoxSheepAudio.Size = new System.Drawing.Size(33, 37);
+            this.pictureBoxSheepAudio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxSheepAudio.TabIndex = 32;
+            this.pictureBoxSheepAudio.TabStop = false;
+            this.pictureBoxSheepAudio.Click += new System.EventHandler(this.pictureBoxSheepAudio_Click);
+            // 
+            // pictureBoxCowAudio
+            // 
+            this.pictureBoxCowAudio.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxCowAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
+            this.pictureBoxCowAudio.Location = new System.Drawing.Point(97, 393);
+            this.pictureBoxCowAudio.Name = "pictureBoxCowAudio";
+            this.pictureBoxCowAudio.Size = new System.Drawing.Size(33, 37);
+            this.pictureBoxCowAudio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxCowAudio.TabIndex = 31;
+            this.pictureBoxCowAudio.TabStop = false;
+            this.pictureBoxCowAudio.Click += new System.EventHandler(this.pictureBoxCowAudio_Click);
+            // 
+            // pictureBoxChickenAudio
+            // 
+            this.pictureBoxChickenAudio.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxChickenAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
+            this.pictureBoxChickenAudio.Location = new System.Drawing.Point(636, 190);
+            this.pictureBoxChickenAudio.Name = "pictureBoxChickenAudio";
+            this.pictureBoxChickenAudio.Size = new System.Drawing.Size(33, 37);
+            this.pictureBoxChickenAudio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxChickenAudio.TabIndex = 30;
+            this.pictureBoxChickenAudio.TabStop = false;
+            this.pictureBoxChickenAudio.Click += new System.EventHandler(this.pictureBoxChickenAudio_Click);
+            // 
+            // pictureBoxParrotAudio
+            // 
+            this.pictureBoxParrotAudio.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxParrotAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
+            this.pictureBoxParrotAudio.Location = new System.Drawing.Point(502, 190);
+            this.pictureBoxParrotAudio.Name = "pictureBoxParrotAudio";
+            this.pictureBoxParrotAudio.Size = new System.Drawing.Size(33, 37);
+            this.pictureBoxParrotAudio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxParrotAudio.TabIndex = 29;
+            this.pictureBoxParrotAudio.TabStop = false;
+            this.pictureBoxParrotAudio.Click += new System.EventHandler(this.pictureBoxParrotAudio_Click);
             // 
             // StranicaZaUcenje
             // 
@@ -445,7 +445,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::NICK_Proekt.Properties.Resources.pozadina222;
             this.ClientSize = new System.Drawing.Size(770, 456);
-            this.Controls.Add(this.pictureBoxHorseAudio);
+            this.Controls.Add(this.pictureBoxHorse);
+            this.Controls.Add(this.pictureBoxMouse);
+            this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBoxGoatAudio);
             this.Controls.Add(this.pictureBoxPigAudio);
             this.Controls.Add(this.pictureBoxSheepAudio);
@@ -453,8 +455,6 @@
             this.Controls.Add(this.pictureBoxChickenAudio);
             this.Controls.Add(this.pictureBoxParrotAudio);
             this.Controls.Add(this.pictureBoxDogAudio);
-            this.Controls.Add(this.pictureBoxMouseAudio);
-            this.Controls.Add(this.pictureBoxCatAudio);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox4);
@@ -491,16 +491,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCatAudio)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMouseAudio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDogAudio)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxParrotAudio)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxChickenAudio)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCowAudio)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSheepAudio)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPigAudio)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMouse)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHorse)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGoatAudio)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHorseAudio)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPigAudio)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSheepAudio)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCowAudio)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxChickenAudio)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxParrotAudio)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -529,15 +529,15 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.PictureBox pictureBoxCatAudio;
-        private System.Windows.Forms.PictureBox pictureBoxMouseAudio;
         private System.Windows.Forms.PictureBox pictureBoxDogAudio;
-        private System.Windows.Forms.PictureBox pictureBoxParrotAudio;
-        private System.Windows.Forms.PictureBox pictureBoxChickenAudio;
-        private System.Windows.Forms.PictureBox pictureBoxCowAudio;
-        private System.Windows.Forms.PictureBox pictureBoxSheepAudio;
-        private System.Windows.Forms.PictureBox pictureBoxPigAudio;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox pictureBoxMouse;
+        private System.Windows.Forms.PictureBox pictureBoxHorse;
         private System.Windows.Forms.PictureBox pictureBoxGoatAudio;
-        private System.Windows.Forms.PictureBox pictureBoxHorseAudio;
+        private System.Windows.Forms.PictureBox pictureBoxPigAudio;
+        private System.Windows.Forms.PictureBox pictureBoxSheepAudio;
+        private System.Windows.Forms.PictureBox pictureBoxCowAudio;
+        private System.Windows.Forms.PictureBox pictureBoxChickenAudio;
+        private System.Windows.Forms.PictureBox pictureBoxParrotAudio;
     }
 }

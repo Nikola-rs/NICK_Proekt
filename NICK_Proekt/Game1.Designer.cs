@@ -35,10 +35,12 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.picCat = new System.Windows.Forms.PictureBox();
             this.btnExit = new System.Windows.Forms.Button();
+            this.pbGame1Info = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picDog)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picParrot)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCat)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbGame1Info)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNaslov
@@ -124,12 +126,25 @@
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // pbGame1Info
+            // 
+            this.pbGame1Info.BackColor = System.Drawing.Color.Transparent;
+            this.pbGame1Info.Image = global::NICK_Proekt.Properties.Resources.speaker;
+            this.pbGame1Info.Location = new System.Drawing.Point(208, 45);
+            this.pbGame1Info.Name = "pbGame1Info";
+            this.pbGame1Info.Size = new System.Drawing.Size(33, 37);
+            this.pbGame1Info.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbGame1Info.TabIndex = 28;
+            this.pbGame1Info.TabStop = false;
+            this.pbGame1Info.Click += new System.EventHandler(this.pbGame1Info_Click);
+            // 
             // Game1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::NICK_Proekt.Properties.Resources.background1;
             this.ClientSize = new System.Drawing.Size(770, 456);
+            this.Controls.Add(this.pbGame1Info);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnBackOnGames);
             this.Controls.Add(this.picParrot);
@@ -145,6 +160,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picParrot)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCat)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbGame1Info)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -159,5 +175,6 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox picCat;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.PictureBox pbGame1Info;
     }
 }

@@ -33,7 +33,9 @@
             this.btnBackToGames = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnExit = new System.Windows.Forms.Button();
+            this.pbGame1Failed = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbGame1Failed)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -92,12 +94,25 @@
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // pbGame1Failed
+            // 
+            this.pbGame1Failed.BackColor = System.Drawing.Color.Transparent;
+            this.pbGame1Failed.Image = global::NICK_Proekt.Properties.Resources.speaker;
+            this.pbGame1Failed.Location = new System.Drawing.Point(261, 29);
+            this.pbGame1Failed.Name = "pbGame1Failed";
+            this.pbGame1Failed.Size = new System.Drawing.Size(33, 37);
+            this.pbGame1Failed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbGame1Failed.TabIndex = 28;
+            this.pbGame1Failed.TabStop = false;
+            this.pbGame1Failed.Click += new System.EventHandler(this.pbGame1Failed_Click);
+            // 
             // GreskaPogodenoZivotno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::NICK_Proekt.Properties.Resources.pozadina222;
             this.ClientSize = new System.Drawing.Size(770, 456);
+            this.Controls.Add(this.pbGame1Failed);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnBackToGames);
@@ -108,6 +123,7 @@
             this.Text = "GreskaPogodenoZivotno";
             this.Load += new System.EventHandler(this.GreskaPogodenoZivotno_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbGame1Failed)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -120,5 +136,6 @@
         private System.Windows.Forms.Button btnBackToGames;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.PictureBox pbGame1Failed;
     }
 }

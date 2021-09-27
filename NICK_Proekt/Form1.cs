@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Media;
+using WMPLib;
 
 namespace NICK_Proekt
 {
     public partial class Form1 : Form
     {
+        WindowsMediaPlayer ana = new WindowsMediaPlayer();
         public Form1()
         {
             InitializeComponent();
@@ -55,6 +56,12 @@ namespace NICK_Proekt
         private void btnExit_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void virtualAna_Click(object sender, EventArgs e)
+        {
+            ana.URL = "virtualPlayerAna.m4a";
+            ana.controls.play();
         }
     }
 }

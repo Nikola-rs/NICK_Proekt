@@ -45,11 +45,13 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
+            this.pbGame2Info = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbDog)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbParrot)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMouse)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbGame2Info)).BeginInit();
             this.SuspendLayout();
             // 
             // pbDog
@@ -256,12 +258,25 @@
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // pbGame2Info
+            // 
+            this.pbGame2Info.BackColor = System.Drawing.Color.Transparent;
+            this.pbGame2Info.Image = global::NICK_Proekt.Properties.Resources.speaker;
+            this.pbGame2Info.Location = new System.Drawing.Point(241, 53);
+            this.pbGame2Info.Name = "pbGame2Info";
+            this.pbGame2Info.Size = new System.Drawing.Size(33, 37);
+            this.pbGame2Info.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbGame2Info.TabIndex = 28;
+            this.pbGame2Info.TabStop = false;
+            this.pbGame2Info.Click += new System.EventHandler(this.pbGame2Info_Click);
+            // 
             // Game2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::NICK_Proekt.Properties.Resources.background;
             this.ClientSize = new System.Drawing.Size(770, 456);
+            this.Controls.Add(this.pbGame2Info);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnBackOnGames);
@@ -288,6 +303,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbParrot)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMouse)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbGame2Info)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -311,5 +327,6 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.PictureBox pbGame2Info;
     }
 }

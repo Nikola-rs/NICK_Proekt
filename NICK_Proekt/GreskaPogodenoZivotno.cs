@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace NICK_Proekt
 {
     public partial class GreskaPogodenoZivotno : Form
     {
+        WindowsMediaPlayer game1Failed = new WindowsMediaPlayer();
         public GreskaPogodenoZivotno()
         {
             InitializeComponent();
@@ -51,6 +53,12 @@ namespace NICK_Proekt
         private void btnExit_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void pbGame1Failed_Click(object sender, EventArgs e)
+        {
+            game1Failed.URL = "game1Failed.m4a";
+            game1Failed.controls.play();
         }
     }
 }

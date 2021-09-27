@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace NICK_Proekt
 {
     public partial class TocnoPogodenoZivotno : Form
     {
+        WindowsMediaPlayer game1Correct = new WindowsMediaPlayer();
         public TocnoPogodenoZivotno()
         {
             InitializeComponent();
@@ -65,6 +67,12 @@ namespace NICK_Proekt
         private void btnExit_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void pbGame1Correct_Click(object sender, EventArgs e)
+        {
+            game1Correct.URL = "game1Success.m4a";
+            game1Correct.controls.play();
         }
     }
 }

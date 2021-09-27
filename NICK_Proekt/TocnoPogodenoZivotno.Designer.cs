@@ -37,10 +37,12 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.btnExit = new System.Windows.Forms.Button();
+            this.pbGame1Correct = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbGame1Correct)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -142,12 +144,25 @@
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // pbGame1Correct
+            // 
+            this.pbGame1Correct.BackColor = System.Drawing.Color.Transparent;
+            this.pbGame1Correct.Image = global::NICK_Proekt.Properties.Resources.speaker;
+            this.pbGame1Correct.Location = new System.Drawing.Point(291, 111);
+            this.pbGame1Correct.Name = "pbGame1Correct";
+            this.pbGame1Correct.Size = new System.Drawing.Size(33, 37);
+            this.pbGame1Correct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbGame1Correct.TabIndex = 28;
+            this.pbGame1Correct.TabStop = false;
+            this.pbGame1Correct.Click += new System.EventHandler(this.pbGame1Correct_Click);
+            // 
             // TocnoPogodenoZivotno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::NICK_Proekt.Properties.Resources.pozadina222;
             this.ClientSize = new System.Drawing.Size(770, 456);
+            this.Controls.Add(this.pbGame1Correct);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox4);
@@ -165,6 +180,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbGame1Correct)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -181,5 +197,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.PictureBox pbGame1Correct;
     }
 }

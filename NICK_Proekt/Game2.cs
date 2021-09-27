@@ -7,11 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace NICK_Proekt
 {
+    
     public partial class Game2 : Form
     {
+        WindowsMediaPlayer game2Info = new WindowsMediaPlayer();
+        WindowsMediaPlayer game2OneCorrect = new WindowsMediaPlayer();
+        WindowsMediaPlayer game2OneFailed = new WindowsMediaPlayer();
+
+        Boolean dogFlag = false;
+        Boolean catFlag = false;
+        Boolean mouseFlag = false;
+        Boolean parrotFlag = false;
         public Game2()
         {
             InitializeComponent();
@@ -35,15 +45,23 @@ namespace NICK_Proekt
         private void lbforDog_SelectedIndexChanged(object sender, EventArgs e)
         {
             lblDog.Visible = true;
-            if (lbforDog.SelectedIndex!=0)
+            if (lbforDog.SelectedIndex != 0)
             {
                 lbforDog.SelectedIndex = -1;
                 lblDog.Text = "Грешка! Пробај повторно";
+                game2OneFailed.URL = "game2OneFailed.m4a";
+                game2OneFailed.controls.play();
             }
             else
             {
                 lbforDog.Enabled = false;
                 lblDog.Text = "Го избра точното име";
+                dogFlag = true;
+                if (parrotFlag == false || catFlag == false || mouseFlag == false || dogFlag == false)
+                {
+                    game2OneCorrect.URL = "game2OneCorrect.m4a";
+                    game2OneCorrect.controls.play();
+                }
             }
 
 
@@ -65,11 +83,19 @@ namespace NICK_Proekt
             { 
                 lbForCat.Enabled = false;
                 lblCat.Text = "Го избра точното име";
+                catFlag = true;
+                if (parrotFlag == false || catFlag == false || mouseFlag == false || dogFlag == false)
+                {
+                    game2OneCorrect.URL = "game2OneCorrect.m4a";
+                    game2OneCorrect.controls.play();
+                }
             }
             else
             {
                 lbForCat.SelectedIndex = -1;
                 lblCat.Text = "Грешка! Пробај повторно";
+                game2OneFailed.URL = "game2OneFailed.m4a";
+                game2OneFailed.controls.play();
             }
 
 
@@ -91,11 +117,19 @@ namespace NICK_Proekt
             {
                 lbForParrot.Enabled = false;
                 lblParrot.Text = "Го избра точното име";
+                parrotFlag = true;
+                if (parrotFlag == false || catFlag == false || mouseFlag == false || dogFlag == false)
+                {
+                    game2OneCorrect.URL = "game2OneCorrect.m4a";
+                    game2OneCorrect.controls.play();
+                }
             }
             else
             {
                 lbForParrot.SelectedIndex = -1;
                 lblParrot.Text = "Грешка! Пробај повторно";
+                game2OneFailed.URL = "game2OneFailed.m4a";
+                game2OneFailed.controls.play();
             }
 
 
@@ -116,12 +150,20 @@ namespace NICK_Proekt
             if (lbForMouse.SelectedItem != null && lbForMouse.SelectedItem.ToString().Equals("Глувче"))
             {
                 lbForMouse.Enabled = false;
-                lblMouse.Text = "Го избра точното име";   
+                lblMouse.Text = "Го избра точното име";
+                mouseFlag = true;
+                if (parrotFlag == false || catFlag == false || mouseFlag == false || dogFlag == false)
+                {
+                    game2OneCorrect.URL = "game2OneCorrect.m4a";
+                    game2OneCorrect.controls.play();
+                }
             }
             else
             {
                 lbForMouse.SelectedIndex = -1;
                 lblMouse.Text = "Грешка! Пробај повторно";
+                game2OneFailed.URL = "game2OneFailed.m4a";
+                game2OneFailed.controls.play();
             }
 
 
@@ -159,6 +201,12 @@ namespace NICK_Proekt
         private void btnExit_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void pbGame2Info_Click(object sender, EventArgs e)
+        {
+            game2Info.URL = "game2.m4a";
+            game2Info.controls.play();
         }
     }
 }

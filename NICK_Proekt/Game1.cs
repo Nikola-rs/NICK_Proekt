@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace NICK_Proekt
 {
     public partial class Game1 : Form
     {
+        public WindowsMediaPlayer gameInfo = new WindowsMediaPlayer();
+
         public RandomNumber randomNumber = new RandomNumber();
 
         public int random_number = 1;
@@ -131,6 +134,12 @@ namespace NICK_Proekt
         private void btnExit_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void pbGame1Info_Click(object sender, EventArgs e)
+        {
+            gameInfo.URL = "game1.m4a";
+            gameInfo.controls.play();
         }
     }
 }
