@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -60,8 +61,8 @@ namespace NICK_Proekt
 
         private void virtualAna_Click(object sender, EventArgs e)
         {
-            ana.URL = "virtualPlayerAna.m4a";
-            ana.controls.play();
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.virtualPlayerAna);
+            soundplayer.Play();
         }
     }
 }

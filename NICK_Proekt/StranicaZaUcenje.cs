@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -76,62 +77,62 @@ namespace NICK_Proekt
 
         private void pictureBoxDogAudio_Click(object sender, EventArgs e)
         {
-            dog.URL = "dogPronunciation.wav";
-            dog.controls.play();
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.dogPronunciation);
+            soundplayer.Play();
         }
 
         private void pictureBoxParrotAudio_Click(object sender, EventArgs e)
         {
-            parrot.URL = "parrotPronunciation.wav";
-            parrot.controls.play();
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.parrotPronunciation);
+            soundplayer.Play();
         }
 
         private void pictureBoxChickenAudio_Click(object sender, EventArgs e)
         {
-            chicken.URL = "chickenPronunciation.wav";
-            chicken.controls.play();
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.chickenPronunciation);
+            soundplayer.Play();
         }
 
         private void pictureBoxCowAudio_Click(object sender, EventArgs e)
         {
-            cow.URL = "cowPronunciation.wav";
-            cow.controls.play();
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.cowPronunciation);
+            soundplayer.Play();
         }
 
         private void pictureBoxSheepAudio_Click(object sender, EventArgs e)
         {
-            sheep.URL = "sheepPronunciation.wav";
-            sheep.controls.play();
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.sheepPronunciation);
+            soundplayer.Play();
         }
 
         private void pictureBoxPigAudio_Click(object sender, EventArgs e)
         {
-            pig.URL = "pigPronunciation.wav";
-            pig.controls.play();
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.pigPronunciation);
+            soundplayer.Play();
         }
 
         private void pictureBoxGoatAudio_Click(object sender, EventArgs e)
         {
-            goat.URL = "goatPronunciation.wav";
-            goat.controls.play();
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.goatPronunciation);
+            soundplayer.Play();
         }
 
         private void pictureBox11_Click(object sender, EventArgs e)
         {
-            cat.URL = "catPronunciation.wav";
-            cat.controls.play();
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.catPronunciation);
+            soundplayer.Play();
         }
 
         private void pictureBoxMouse_Click(object sender, EventArgs e)
         {
-            mouse.URL = "mousePronunciation.wav";
-            mouse.controls.play();
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.mousePronunciation);
+            soundplayer.Play();
         }
 
         private void pictureBoxHorse_Click_1(object sender, EventArgs e)
         {
-            horse.URL = "horsePronunciation.wav";
-            horse.controls.play();
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.horsePronunciation);
+            soundplayer.Play();
         }
     }
 }

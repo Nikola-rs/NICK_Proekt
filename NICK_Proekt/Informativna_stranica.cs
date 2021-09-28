@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -109,14 +110,14 @@ namespace NICK_Proekt
 
         private void greenButtonLearn_Click(object sender, EventArgs e)
         {
-            greenButton.URL = "greenButtonLearning.m4a";
-            greenButton.controls.play();
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.greenButtonLearning);
+            soundplayer.Play();
         }
 
         private void pictureBoxChooseAGame_Click(object sender, EventArgs e)
         {
-            chooseGame.URL = "chooseAGame.m4a";
-            chooseGame.controls.play();
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.chooseAGame);
+            soundplayer.Play();
         }
     }
 }

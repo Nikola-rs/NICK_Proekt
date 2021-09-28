@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -48,8 +49,8 @@ namespace NICK_Proekt
 
         private void pbGame2AllCorrect_Click(object sender, EventArgs e)
         {
-            game2AllCorrect.URL = "game2AllCorrect.m4a";
-            game2AllCorrect.controls.play();
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.game2AllCorrect);
+            soundplayer.Play();
         }
     }
 }

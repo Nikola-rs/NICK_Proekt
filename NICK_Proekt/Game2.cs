@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -49,8 +50,8 @@ namespace NICK_Proekt
             {
                 lbforDog.SelectedIndex = -1;
                 lblDog.Text = "Грешка! Пробај повторно";
-                game2OneFailed.URL = "game2OneFailed.m4a";
-                game2OneFailed.controls.play();
+                SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.game2OneFailed);
+                soundplayer.Play();
             }
             else
             {
@@ -59,8 +60,8 @@ namespace NICK_Proekt
                 dogFlag = true;
                 if (parrotFlag == false || catFlag == false || mouseFlag == false || dogFlag == false)
                 {
-                    game2OneCorrect.URL = "game2OneCorrect.m4a";
-                    game2OneCorrect.controls.play();
+                    SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.game2OneCorrect);
+                    soundplayer.Play();
                 }
             }
 
@@ -86,16 +87,16 @@ namespace NICK_Proekt
                 catFlag = true;
                 if (parrotFlag == false || catFlag == false || mouseFlag == false || dogFlag == false)
                 {
-                    game2OneCorrect.URL = "game2OneCorrect.m4a";
-                    game2OneCorrect.controls.play();
+                    SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.game2OneCorrect);
+                    soundplayer.Play();
                 }
             }
             else
             {
                 lbForCat.SelectedIndex = -1;
                 lblCat.Text = "Грешка! Пробај повторно";
-                game2OneFailed.URL = "game2OneFailed.m4a";
-                game2OneFailed.controls.play();
+                SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.game2OneFailed);
+                soundplayer.Play();
             }
 
 
@@ -120,16 +121,16 @@ namespace NICK_Proekt
                 parrotFlag = true;
                 if (parrotFlag == false || catFlag == false || mouseFlag == false || dogFlag == false)
                 {
-                    game2OneCorrect.URL = "game2OneCorrect.m4a";
-                    game2OneCorrect.controls.play();
+                    SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.game2OneCorrect);
+                    soundplayer.Play();
                 }
             }
             else
             {
                 lbForParrot.SelectedIndex = -1;
                 lblParrot.Text = "Грешка! Пробај повторно";
-                game2OneFailed.URL = "game2OneFailed.m4a";
-                game2OneFailed.controls.play();
+                SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.game2OneFailed);
+                soundplayer.Play();
             }
 
 
@@ -154,16 +155,16 @@ namespace NICK_Proekt
                 mouseFlag = true;
                 if (parrotFlag == false || catFlag == false || mouseFlag == false || dogFlag == false)
                 {
-                    game2OneCorrect.URL = "game2OneCorrect.m4a";
-                    game2OneCorrect.controls.play();
+                    SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.game2OneCorrect);
+                    soundplayer.Play();
                 }
             }
             else
             {
                 lbForMouse.SelectedIndex = -1;
                 lblMouse.Text = "Грешка! Пробај повторно";
-                game2OneFailed.URL = "game2OneFailed.m4a";
-                game2OneFailed.controls.play();
+                SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.game2OneFailed);
+                soundplayer.Play();
             }
 
 
@@ -205,8 +206,8 @@ namespace NICK_Proekt
 
         private void pbGame2Info_Click(object sender, EventArgs e)
         {
-            game2Info.URL = "game2.m4a";
-            game2Info.controls.play();
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.game2);
+            soundplayer.Play();
         }
     }
 }

@@ -337,5 +337,65 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\catPronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chickenPronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chooseAGame.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cowPronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dogPronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game1Failed.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game1Success.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game2AllCorrect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game2OneCorrect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game2OneFailed.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goatPronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenButtonLearning.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horsePronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mousePronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parrotPronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pigPronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sheepPronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\virtualPlayerAna.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -138,8 +139,8 @@ namespace NICK_Proekt
 
         private void pbGame1Info_Click(object sender, EventArgs e)
         {
-            gameInfo.URL = "game1.m4a";
-            gameInfo.controls.play();
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.game1);
+            soundplayer.Play();
         }
     }
 }
