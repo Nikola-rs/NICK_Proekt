@@ -84,6 +84,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::NICK_Proekt.Properties.Resources.pngaaa2;
             this.pictureBox2.Location = new System.Drawing.Point(625, 253);
@@ -95,6 +96,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Location = new System.Drawing.Point(272, 202);
@@ -106,6 +108,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Location = new System.Drawing.Point(404, 202);
@@ -116,6 +119,7 @@
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Location = new System.Drawing.Point(541, 202);
@@ -126,6 +130,7 @@
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Location = new System.Drawing.Point(136, 202);
@@ -137,6 +142,7 @@
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Location = new System.Drawing.Point(404, 404);
@@ -148,6 +154,7 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = global::NICK_Proekt.Properties.Resources.mouse;
             this.pictureBox5.Location = new System.Drawing.Point(85, 50);
@@ -159,6 +166,7 @@
             // 
             // pictureBox7
             // 
+            this.pictureBox7.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.Image = global::NICK_Proekt.Properties.Resources.pngaaa3;
             this.pictureBox7.Location = new System.Drawing.Point(355, 253);
@@ -170,6 +178,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::NICK_Proekt.Properties.Resources.pngaaa4;
             this.pictureBox1.Location = new System.Drawing.Point(625, 50);
@@ -181,6 +190,7 @@
             // 
             // pictureBox8
             // 
+            this.pictureBox8.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox8.Image = global::NICK_Proekt.Properties.Resources.pngaaa_com_2517927;
             this.pictureBox8.Location = new System.Drawing.Point(490, 253);
@@ -192,6 +202,7 @@
             // 
             // pictureBox9
             // 
+            this.pictureBox9.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox9.Image = global::NICK_Proekt.Properties.Resources.pngaaa_com_2808365;
             this.pictureBox9.Location = new System.Drawing.Point(85, 253);
@@ -203,6 +214,7 @@
             // 
             // pictureBox10
             // 
+            this.pictureBox10.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox10.Image = global::NICK_Proekt.Properties.Resources.pngaaa_com_2517951;
             this.pictureBox10.Location = new System.Drawing.Point(220, 253);
@@ -214,6 +226,7 @@
             // 
             // label6
             // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Location = new System.Drawing.Point(541, 404);
@@ -224,6 +237,7 @@
             // 
             // label7
             // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Location = new System.Drawing.Point(136, 404);
@@ -235,6 +249,7 @@
             // 
             // label8
             // 
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Location = new System.Drawing.Point(675, 202);
@@ -245,6 +260,7 @@
             // 
             // label9
             // 
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Location = new System.Drawing.Point(272, 404);
@@ -255,6 +271,7 @@
             // 
             // label10
             // 
+            this.label10.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Location = new System.Drawing.Point(675, 404);
@@ -276,6 +293,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::NICK_Proekt.Properties.Resources.catt2;
             this.pictureBox3.Location = new System.Drawing.Point(220, 50);
@@ -287,6 +305,7 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::NICK_Proekt.Properties.Resources.dogg2;
             this.pictureBox4.Location = new System.Drawing.Point(355, 50);
@@ -298,6 +317,7 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = global::NICK_Proekt.Properties.Resources.parrott1;
             this.pictureBox6.Location = new System.Drawing.Point(490, 50);
@@ -309,6 +329,7 @@
             // 
             // btnExit
             // 
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExit.BackColor = System.Drawing.Color.Crimson;
             this.btnExit.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Location = new System.Drawing.Point(636, 2);
@@ -321,6 +342,7 @@
             // 
             // pictureBoxDogAudio
             // 
+            this.pictureBoxDogAudio.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBoxDogAudio.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxDogAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
             this.pictureBoxDogAudio.Location = new System.Drawing.Point(365, 190);
@@ -333,6 +355,7 @@
             // 
             // pictureBox11
             // 
+            this.pictureBox11.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox11.Image = global::NICK_Proekt.Properties.Resources.speaker;
             this.pictureBox11.Location = new System.Drawing.Point(233, 190);
@@ -345,6 +368,7 @@
             // 
             // pictureBoxMouse
             // 
+            this.pictureBoxMouse.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBoxMouse.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxMouse.Image = global::NICK_Proekt.Properties.Resources.speaker;
             this.pictureBoxMouse.Location = new System.Drawing.Point(97, 190);
@@ -357,6 +381,7 @@
             // 
             // pictureBoxHorse
             // 
+            this.pictureBoxHorse.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBoxHorse.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxHorse.Image = global::NICK_Proekt.Properties.Resources.speaker;
             this.pictureBoxHorse.Location = new System.Drawing.Point(636, 396);
@@ -369,6 +394,7 @@
             // 
             // pictureBoxGoatAudio
             // 
+            this.pictureBoxGoatAudio.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBoxGoatAudio.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxGoatAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
             this.pictureBoxGoatAudio.Location = new System.Drawing.Point(502, 393);
@@ -381,6 +407,7 @@
             // 
             // pictureBoxPigAudio
             // 
+            this.pictureBoxPigAudio.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBoxPigAudio.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxPigAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
             this.pictureBoxPigAudio.Location = new System.Drawing.Point(365, 393);
@@ -393,6 +420,7 @@
             // 
             // pictureBoxSheepAudio
             // 
+            this.pictureBoxSheepAudio.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBoxSheepAudio.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxSheepAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
             this.pictureBoxSheepAudio.Location = new System.Drawing.Point(233, 393);
@@ -405,6 +433,7 @@
             // 
             // pictureBoxCowAudio
             // 
+            this.pictureBoxCowAudio.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBoxCowAudio.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxCowAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
             this.pictureBoxCowAudio.Location = new System.Drawing.Point(97, 393);
@@ -417,6 +446,7 @@
             // 
             // pictureBoxChickenAudio
             // 
+            this.pictureBoxChickenAudio.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBoxChickenAudio.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxChickenAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
             this.pictureBoxChickenAudio.Location = new System.Drawing.Point(636, 190);
@@ -429,6 +459,7 @@
             // 
             // pictureBoxParrotAudio
             // 
+            this.pictureBoxParrotAudio.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBoxParrotAudio.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxParrotAudio.Image = global::NICK_Proekt.Properties.Resources.speaker;
             this.pictureBoxParrotAudio.Location = new System.Drawing.Point(502, 190);
@@ -444,6 +475,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::NICK_Proekt.Properties.Resources.pozadina222;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(770, 456);
             this.Controls.Add(this.pictureBoxHorse);
             this.Controls.Add(this.pictureBoxMouse);
@@ -477,9 +509,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "StranicaZaUcenje";
             this.Text = "StranicaZaUcenje";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.StranicaZaUcenje_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();

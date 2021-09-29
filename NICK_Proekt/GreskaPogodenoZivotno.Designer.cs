@@ -40,6 +40,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(306, 207);
@@ -50,6 +51,7 @@
             // 
             // btnTryAgain
             // 
+            this.btnTryAgain.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnTryAgain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(208)))), ((int)(((byte)(240)))));
             this.btnTryAgain.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTryAgain.Location = new System.Drawing.Point(339, 262);
@@ -62,6 +64,7 @@
             // 
             // btnBackToGames
             // 
+            this.btnBackToGames.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnBackToGames.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(208)))), ((int)(((byte)(240)))));
             this.btnBackToGames.Location = new System.Drawing.Point(323, 293);
             this.btnBackToGames.Name = "btnBackToGames";
@@ -73,6 +76,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::NICK_Proekt.Properties.Resources.wrongAnswerEmoji1;
             this.pictureBox1.Location = new System.Drawing.Point(323, 29);
@@ -84,6 +88,7 @@
             // 
             // btnExit
             // 
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExit.BackColor = System.Drawing.Color.Crimson;
             this.btnExit.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Location = new System.Drawing.Point(633, 2);
@@ -96,6 +101,7 @@
             // 
             // pbGame1Failed
             // 
+            this.pbGame1Failed.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pbGame1Failed.BackColor = System.Drawing.Color.Transparent;
             this.pbGame1Failed.Image = global::NICK_Proekt.Properties.Resources.speaker;
             this.pbGame1Failed.Location = new System.Drawing.Point(261, 29);
@@ -111,6 +117,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::NICK_Proekt.Properties.Resources.pozadina222;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(770, 456);
             this.Controls.Add(this.pbGame1Failed);
             this.Controls.Add(this.btnExit);
@@ -118,6 +125,7 @@
             this.Controls.Add(this.btnBackToGames);
             this.Controls.Add(this.btnTryAgain);
             this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "GreskaPogodenoZivotno";
             this.Text = "GreskaPogodenoZivotno";

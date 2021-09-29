@@ -57,18 +57,22 @@
             // 
             // lblInformacii
             // 
+            this.lblInformacii.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblInformacii.AutoSize = true;
             this.lblInformacii.BackColor = System.Drawing.Color.Transparent;
-            this.lblInformacii.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInformacii.Font = new System.Drawing.Font("Courier New", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInformacii.Location = new System.Drawing.Point(380, 9);
             this.lblInformacii.Name = "lblInformacii";
-            this.lblInformacii.Size = new System.Drawing.Size(68, 27);
+            this.lblInformacii.Size = new System.Drawing.Size(83, 33);
             this.lblInformacii.TabIndex = 0;
             this.lblInformacii.Text = "ИГРИ";
             this.lblInformacii.Click += new System.EventHandler(this.lblInformacii_Click);
             // 
             // btnGame1
             // 
+            this.btnGame1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnGame1.AutoEllipsis = true;
+            this.btnGame1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnGame1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
             this.btnGame1.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGame1.Location = new System.Drawing.Point(310, 101);
@@ -81,6 +85,7 @@
             // 
             // btnGame2
             // 
+            this.btnGame2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnGame2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
             this.btnGame2.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGame2.Location = new System.Drawing.Point(310, 192);
@@ -93,6 +98,7 @@
             // 
             // btnGame3
             // 
+            this.btnGame3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnGame3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
             this.btnGame3.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGame3.Location = new System.Drawing.Point(310, 280);
@@ -105,6 +111,7 @@
             // 
             // btnLearnAnimals
             // 
+            this.btnLearnAnimals.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnLearnAnimals.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(245)))), ((int)(((byte)(28)))));
             this.btnLearnAnimals.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLearnAnimals.Location = new System.Drawing.Point(591, 43);
@@ -117,6 +124,9 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = global::NICK_Proekt.Properties.Resources.blob;
             this.pictureBox6.Location = new System.Drawing.Point(207, 43);
@@ -206,6 +216,7 @@
             // 
             // btnExit
             // 
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExit.BackColor = System.Drawing.Color.Crimson;
             this.btnExit.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Location = new System.Drawing.Point(633, 6);
@@ -218,9 +229,10 @@
             // 
             // pictureBoxChooseAGame
             // 
+            this.pictureBoxChooseAGame.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBoxChooseAGame.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxChooseAGame.Image = global::NICK_Proekt.Properties.Resources.speaker;
-            this.pictureBoxChooseAGame.Location = new System.Drawing.Point(226, 54);
+            this.pictureBoxChooseAGame.Location = new System.Drawing.Point(341, 6);
             this.pictureBoxChooseAGame.Name = "pictureBoxChooseAGame";
             this.pictureBoxChooseAGame.Size = new System.Drawing.Size(33, 37);
             this.pictureBoxChooseAGame.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -230,6 +242,7 @@
             // 
             // greenButtonLearn
             // 
+            this.greenButtonLearn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.greenButtonLearn.BackColor = System.Drawing.Color.Transparent;
             this.greenButtonLearn.Image = global::NICK_Proekt.Properties.Resources.speaker;
             this.greenButtonLearn.Location = new System.Drawing.Point(552, 40);
@@ -264,6 +277,7 @@
             this.Controls.Add(this.pictureBox6);
             this.Name = "Informativna_stranica";
             this.Text = "Informativna_stranica";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Informativna_stranica_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

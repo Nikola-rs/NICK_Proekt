@@ -49,6 +49,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::NICK_Proekt.Properties.Resources.mouse;
             this.pictureBox1.Location = new System.Drawing.Point(162, 238);
@@ -60,6 +61,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::NICK_Proekt.Properties.Resources.catt;
             this.pictureBox2.Location = new System.Drawing.Point(551, 238);
@@ -71,6 +73,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::NICK_Proekt.Properties.Resources.dogg;
             this.pictureBox3.Location = new System.Drawing.Point(137, 78);
@@ -82,6 +85,7 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = global::NICK_Proekt.Properties.Resources.parrott;
             this.pictureBox5.Location = new System.Drawing.Point(578, 78);
@@ -93,6 +97,9 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = global::NICK_Proekt.Properties.Resources.blob;
             this.pictureBox6.Location = new System.Drawing.Point(217, 12);
@@ -105,6 +112,7 @@
             // 
             // Begin
             // 
+            this.Begin.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.Begin.BackColor = System.Drawing.Color.Transparent;
             this.Begin.Image = global::NICK_Proekt.Properties.Resources.startButton1;
             this.Begin.Location = new System.Drawing.Point(367, 378);
@@ -117,10 +125,11 @@
             // 
             // ucimeZaZivotni
             // 
+            this.ucimeZaZivotni.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.ucimeZaZivotni.AutoSize = true;
             this.ucimeZaZivotni.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
             this.ucimeZaZivotni.Font = new System.Drawing.Font("Courier New", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ucimeZaZivotni.Location = new System.Drawing.Point(336, 116);
+            this.ucimeZaZivotni.Location = new System.Drawing.Point(334, 186);
             this.ucimeZaZivotni.Name = "ucimeZaZivotni";
             this.ucimeZaZivotni.Size = new System.Drawing.Size(172, 123);
             this.ucimeZaZivotni.TabIndex = 10;
@@ -130,6 +139,7 @@
             // 
             // btnExit
             // 
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExit.BackColor = System.Drawing.Color.Crimson;
             this.btnExit.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Location = new System.Drawing.Point(634, 2);
@@ -142,6 +152,7 @@
             // 
             // virtualAna
             // 
+            this.virtualAna.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.virtualAna.BackColor = System.Drawing.Color.Transparent;
             this.virtualAna.Image = global::NICK_Proekt.Properties.Resources.speaker;
             this.virtualAna.Location = new System.Drawing.Point(462, 407);
@@ -171,6 +182,7 @@
             this.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

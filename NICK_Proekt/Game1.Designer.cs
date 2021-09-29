@@ -45,12 +45,13 @@
             // 
             // lblNaslov
             // 
+            this.lblNaslov.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.lblNaslov.AutoSize = true;
             this.lblNaslov.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
-            this.lblNaslov.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNaslov.Location = new System.Drawing.Point(327, 101);
+            this.lblNaslov.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNaslov.Location = new System.Drawing.Point(270, 126);
             this.lblNaslov.Name = "lblNaslov";
-            this.lblNaslov.Size = new System.Drawing.Size(178, 54);
+            this.lblNaslov.Size = new System.Drawing.Size(286, 93);
             this.lblNaslov.TabIndex = 0;
             this.lblNaslov.Text = "МОЖЕШ ЛИ \r\nДА ГО ПРЕПОЗНАЕШ \r\nКУЧЕТО?";
             this.lblNaslov.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -58,6 +59,7 @@
             // 
             // picDog
             // 
+            this.picDog.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.picDog.BackColor = System.Drawing.Color.Transparent;
             this.picDog.Image = global::NICK_Proekt.Properties.Resources.dogg;
             this.picDog.Location = new System.Drawing.Point(67, 227);
@@ -70,9 +72,10 @@
             // 
             // picParrot
             // 
+            this.picParrot.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.picParrot.BackColor = System.Drawing.Color.Transparent;
             this.picParrot.Image = global::NICK_Proekt.Properties.Resources.parrott;
-            this.picParrot.Location = new System.Drawing.Point(610, 227);
+            this.picParrot.Location = new System.Drawing.Point(641, 227);
             this.picParrot.Name = "picParrot";
             this.picParrot.Size = new System.Drawing.Size(117, 124);
             this.picParrot.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -93,6 +96,9 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = global::NICK_Proekt.Properties.Resources.blob;
             this.pictureBox6.Location = new System.Drawing.Point(190, 33);
@@ -104,9 +110,10 @@
             // 
             // picCat
             // 
+            this.picCat.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.picCat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
             this.picCat.Image = global::NICK_Proekt.Properties.Resources.catt;
-            this.picCat.Location = new System.Drawing.Point(357, 227);
+            this.picCat.Location = new System.Drawing.Point(362, 222);
             this.picCat.Name = "picCat";
             this.picCat.Size = new System.Drawing.Size(117, 124);
             this.picCat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -116,6 +123,7 @@
             // 
             // btnExit
             // 
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExit.BackColor = System.Drawing.Color.Crimson;
             this.btnExit.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Location = new System.Drawing.Point(634, 5);
@@ -128,9 +136,10 @@
             // 
             // pbGame1Info
             // 
-            this.pbGame1Info.BackColor = System.Drawing.Color.Transparent;
+            this.pbGame1Info.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pbGame1Info.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
             this.pbGame1Info.Image = global::NICK_Proekt.Properties.Resources.speaker;
-            this.pbGame1Info.Location = new System.Drawing.Point(208, 45);
+            this.pbGame1Info.Location = new System.Drawing.Point(240, 166);
             this.pbGame1Info.Name = "pbGame1Info";
             this.pbGame1Info.Size = new System.Drawing.Size(33, 37);
             this.pbGame1Info.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -155,6 +164,7 @@
             this.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Game1";
             this.Text = "Game1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Game1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picDog)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picParrot)).EndInit();

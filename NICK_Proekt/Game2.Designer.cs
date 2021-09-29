@@ -56,6 +56,7 @@
             // 
             // pbDog
             // 
+            this.pbDog.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.pbDog.Image = global::NICK_Proekt.Properties.Resources.dogg;
             this.pbDog.Location = new System.Drawing.Point(28, 62);
             this.pbDog.Name = "pbDog";
@@ -66,6 +67,7 @@
             // 
             // pbCat
             // 
+            this.pbCat.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pbCat.Image = global::NICK_Proekt.Properties.Resources.catt;
             this.pbCat.Location = new System.Drawing.Point(569, 62);
             this.pbCat.Name = "pbCat";
@@ -76,6 +78,7 @@
             // 
             // pbParrot
             // 
+            this.pbParrot.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.pbParrot.Image = global::NICK_Proekt.Properties.Resources.parrott;
             this.pbParrot.Location = new System.Drawing.Point(28, 238);
             this.pbParrot.Name = "pbParrot";
@@ -86,6 +89,7 @@
             // 
             // pbMouse
             // 
+            this.pbMouse.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pbMouse.Image = global::NICK_Proekt.Properties.Resources.mouse;
             this.pbMouse.Location = new System.Drawing.Point(569, 238);
             this.pbMouse.Name = "pbMouse";
@@ -96,6 +100,7 @@
             // 
             // lbforDog
             // 
+            this.lbforDog.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbforDog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(208)))), ((int)(((byte)(240)))));
             this.lbforDog.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lbforDog.FormattingEnabled = true;
@@ -113,6 +118,7 @@
             // 
             // lbForParrot
             // 
+            this.lbForParrot.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lbForParrot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(208)))), ((int)(((byte)(240)))));
             this.lbForParrot.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lbForParrot.FormattingEnabled = true;
@@ -130,6 +136,7 @@
             // 
             // lbForMouse
             // 
+            this.lbForMouse.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lbForMouse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(208)))), ((int)(((byte)(240)))));
             this.lbForMouse.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lbForMouse.FormattingEnabled = true;
@@ -147,6 +154,7 @@
             // 
             // lbForCat
             // 
+            this.lbForCat.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lbForCat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(208)))), ((int)(((byte)(240)))));
             this.lbForCat.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lbForCat.FormattingEnabled = true;
@@ -172,6 +180,7 @@
             // 
             // lblDog
             // 
+            this.lblDog.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblDog.AutoSize = true;
             this.lblDog.Location = new System.Drawing.Point(26, 178);
             this.lblDog.Name = "lblDog";
@@ -182,6 +191,7 @@
             // 
             // lblCat
             // 
+            this.lblCat.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblCat.AutoSize = true;
             this.lblCat.Location = new System.Drawing.Point(569, 178);
             this.lblCat.Name = "lblCat";
@@ -192,6 +202,7 @@
             // 
             // lblParrot
             // 
+            this.lblParrot.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblParrot.AutoSize = true;
             this.lblParrot.Location = new System.Drawing.Point(26, 353);
             this.lblParrot.Name = "lblParrot";
@@ -202,6 +213,7 @@
             // 
             // lblMouse
             // 
+            this.lblMouse.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblMouse.AutoSize = true;
             this.lblMouse.Location = new System.Drawing.Point(569, 353);
             this.lblMouse.Name = "lblMouse";
@@ -224,6 +236,9 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = global::NICK_Proekt.Properties.Resources.blob;
             this.pictureBox6.Location = new System.Drawing.Point(189, 41);
@@ -235,19 +250,21 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
-            this.label1.Font = new System.Drawing.Font("Courier New", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label1.Location = new System.Drawing.Point(321, 173);
+            this.label1.Location = new System.Drawing.Point(269, 142);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(186, 88);
+            this.label1.Size = new System.Drawing.Size(270, 124);
             this.label1.TabIndex = 25;
             this.label1.Text = "ДАЛИ МОЖЕШ ДА ГИ\r\nПРЕПОЗНАЕШ\r\nЖИВОТНИТЕ\r\nСО НИВНОТО ИМЕ?\r\n";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // btnExit
             // 
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExit.BackColor = System.Drawing.Color.Crimson;
             this.btnExit.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Location = new System.Drawing.Point(630, 5);
@@ -260,9 +277,10 @@
             // 
             // pbGame2Info
             // 
-            this.pbGame2Info.BackColor = System.Drawing.Color.Transparent;
+            this.pbGame2Info.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pbGame2Info.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
             this.pbGame2Info.Image = global::NICK_Proekt.Properties.Resources.speaker;
-            this.pbGame2Info.Location = new System.Drawing.Point(241, 53);
+            this.pbGame2Info.Location = new System.Drawing.Point(383, 278);
             this.pbGame2Info.Name = "pbGame2Info";
             this.pbGame2Info.Size = new System.Drawing.Size(33, 37);
             this.pbGame2Info.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -297,6 +315,7 @@
             this.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Game2";
             this.Text = "Game2";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Game2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbDog)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCat)).EndInit();

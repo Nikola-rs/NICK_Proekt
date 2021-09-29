@@ -47,6 +47,9 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::NICK_Proekt.Properties.Resources.Confetti_PNG_Clipart1;
             this.pictureBox1.Location = new System.Drawing.Point(0, 1);
@@ -58,6 +61,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(396, 289);
@@ -69,6 +73,7 @@
             // 
             // lblTocno
             // 
+            this.lblTocno.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.lblTocno.AutoSize = true;
             this.lblTocno.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTocno.Location = new System.Drawing.Point(341, 313);
@@ -79,6 +84,7 @@
             // 
             // btnNazadIzborIgra
             // 
+            this.btnNazadIzborIgra.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnNazadIzborIgra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(208)))), ((int)(((byte)(240)))));
             this.btnNazadIzborIgra.Location = new System.Drawing.Point(333, 383);
             this.btnNazadIzborIgra.Name = "btnNazadIzborIgra";
@@ -90,6 +96,7 @@
             // 
             // btnIgrajPovtorno
             // 
+            this.btnIgrajPovtorno.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnIgrajPovtorno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(208)))), ((int)(((byte)(240)))));
             this.btnIgrajPovtorno.Location = new System.Drawing.Point(356, 352);
             this.btnIgrajPovtorno.Name = "btnIgrajPovtorno";
@@ -101,6 +108,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::NICK_Proekt.Properties.Resources.correctAnswerEmoji;
             this.pictureBox2.Location = new System.Drawing.Point(360, 111);
@@ -112,6 +120,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::NICK_Proekt.Properties.Resources.pngaaa_com_1271747;
             this.pictureBox3.Location = new System.Drawing.Point(499, 144);
@@ -123,6 +132,7 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::NICK_Proekt.Properties.Resources.pngaaa10;
             this.pictureBox4.Location = new System.Drawing.Point(115, 232);
@@ -134,6 +144,7 @@
             // 
             // btnExit
             // 
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExit.BackColor = System.Drawing.Color.Crimson;
             this.btnExit.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Location = new System.Drawing.Point(636, 1);
@@ -146,6 +157,7 @@
             // 
             // pbGame1Correct
             // 
+            this.pbGame1Correct.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pbGame1Correct.BackColor = System.Drawing.Color.Transparent;
             this.pbGame1Correct.Image = global::NICK_Proekt.Properties.Resources.speaker;
             this.pbGame1Correct.Location = new System.Drawing.Point(291, 111);
@@ -161,6 +173,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::NICK_Proekt.Properties.Resources.pozadina222;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(770, 456);
             this.Controls.Add(this.pbGame1Correct);
             this.Controls.Add(this.btnExit);
@@ -172,9 +185,11 @@
             this.Controls.Add(this.lblTocno);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "TocnoPogodenoZivotno";
             this.Text = "TocnoPogodenoZivotno";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.TocnoPogodenoZivotno_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
