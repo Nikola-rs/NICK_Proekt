@@ -4,14 +4,17 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace NICK_Proekt
 {
     public partial class GreskaPogodenoZivotno : Form
     {
+        WindowsMediaPlayer game1Failed = new WindowsMediaPlayer();
         public GreskaPogodenoZivotno()
         {
             InitializeComponent();
@@ -46,6 +49,17 @@ namespace NICK_Proekt
             {
 
             }
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
+
+        private void pbGame1Failed_Click(object sender, EventArgs e)
+        {
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.game1Failed);
+            soundplayer.Play();
         }
     }
 }

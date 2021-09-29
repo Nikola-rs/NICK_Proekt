@@ -4,14 +4,17 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace NICK_Proekt
 {
     public partial class Form1 : Form
     {
+        WindowsMediaPlayer ana = new WindowsMediaPlayer();
         public Form1()
         {
             InitializeComponent();
@@ -49,6 +52,17 @@ namespace NICK_Proekt
         private void ucimeZaZivotni_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
+
+        private void virtualAna_Click(object sender, EventArgs e)
+        {
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.virtualPlayerAna);
+            soundplayer.Play();
         }
     }
 }

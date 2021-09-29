@@ -4,31 +4,38 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace NICK_Proekt
 {
     public partial class Game1 : Form
     {
+        public WindowsMediaPlayer gameInfo = new WindowsMediaPlayer();
+
         public RandomNumber randomNumber = new RandomNumber();
+
         public int random_number = 1;
         public Game1()
         {
             InitializeComponent();
+
+
             random_number = randomNumber.random_number;
             if (random_number == 1)
             {
-                lblNaslov.Text = "МОЖЕШ ЛИ ДА ГО ПРЕПОЗНАЕШ КУЧЕТО?";
+                lblNaslov.Text = "МОЖЕШ ЛИ\n ДА ГО ПРЕПОЗНАЕШ\n КУЧЕТО?";
             }
             else if(random_number == 2)
             {
-                lblNaslov.Text = "МОЖЕШ ЛИ ДА ГО ПРЕПОЗНАЕШ МАЧЕТО?";
+                lblNaslov.Text = "МОЖЕШ ЛИ\n ДА ГО ПРЕПОЗНАЕШ\n МАЧЕТО?";
             }
             else
             {
-                lblNaslov.Text = "МОЖЕШ ЛИ ДА ГО ПРЕПОЗНАЕШ ПАПАГАЛ?";
+                lblNaslov.Text = "МОЖЕШ ЛИ\n ДА ГО ПРЕПОЗНАЕШ\n ПАПАГАЛОТ?";
             }
         }
 
@@ -118,6 +125,22 @@ namespace NICK_Proekt
             {
 
             }
+        }
+
+        private void Game1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
+
+        private void pbGame1Info_Click(object sender, EventArgs e)
+        {
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.game1);
+            soundplayer.Play();
         }
     }
 }

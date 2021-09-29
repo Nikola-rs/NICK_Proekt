@@ -304,5 +304,117 @@
   <ItemGroup>
     <None Include="Resources\background1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="images\wrongAnswerEmoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\correctAnswerEmoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\confetti-8807.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\confetti-8821.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Confetti-PNG-Clipart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\1271590-middle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\pngaaa.com-1271590.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\pngaaa.com-1271639.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\pngaaa.com-1271747.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\speaker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="audios\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\catPronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chickenPronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chooseAGame.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cowPronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dogPronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game1Failed.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game1Success.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game2AllCorrect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game2OneCorrect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game2OneFailed.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goatPronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenButtonLearning.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horsePronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mousePronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parrotPronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pigPronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sheepPronunciation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\virtualPlayerAna.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

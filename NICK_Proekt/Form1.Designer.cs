@@ -36,12 +36,15 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.Begin = new System.Windows.Forms.PictureBox();
             this.ucimeZaZivotni = new System.Windows.Forms.Label();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.virtualAna = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Begin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.virtualAna)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -125,12 +128,38 @@
             this.ucimeZaZivotni.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.ucimeZaZivotni.Click += new System.EventHandler(this.ucimeZaZivotni_Click);
             // 
+            // btnExit
+            // 
+            this.btnExit.BackColor = System.Drawing.Color.Crimson;
+            this.btnExit.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(634, 2);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(134, 30);
+            this.btnExit.TabIndex = 11;
+            this.btnExit.Text = "Исклучи ја играта";
+            this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // virtualAna
+            // 
+            this.virtualAna.BackColor = System.Drawing.Color.Transparent;
+            this.virtualAna.Image = global::NICK_Proekt.Properties.Resources.speaker;
+            this.virtualAna.Location = new System.Drawing.Point(462, 407);
+            this.virtualAna.Name = "virtualAna";
+            this.virtualAna.Size = new System.Drawing.Size(33, 37);
+            this.virtualAna.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.virtualAna.TabIndex = 28;
+            this.virtualAna.TabStop = false;
+            this.virtualAna.Click += new System.EventHandler(this.virtualAna_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(20F, 39F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(770, 456);
+            this.Controls.Add(this.virtualAna);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.ucimeZaZivotni);
             this.Controls.Add(this.Begin);
             this.Controls.Add(this.pictureBox5);
@@ -148,6 +177,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Begin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.virtualAna)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -161,6 +191,8 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox Begin;
         private System.Windows.Forms.Label ucimeZaZivotni;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.PictureBox virtualAna;
     }
 }
 
