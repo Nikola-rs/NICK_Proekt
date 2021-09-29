@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -47,6 +48,12 @@ namespace NICK_Proekt
         private void btnExit_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void pbGame2AllCorrect_Click(object sender, EventArgs e)
+        {
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.game3Success);
+            soundplayer.Play();
         }
     }
 }

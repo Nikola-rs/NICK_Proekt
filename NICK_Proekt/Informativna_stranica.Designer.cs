@@ -45,6 +45,7 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.pictureBoxChooseAGame = new System.Windows.Forms.PictureBox();
             this.greenButtonLearn = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -53,6 +54,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxChooseAGame)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.greenButtonLearn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // lblInformacii
@@ -253,12 +255,24 @@
             this.greenButtonLearn.TabStop = false;
             this.greenButtonLearn.Click += new System.EventHandler(this.greenButtonLearn_Click);
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.Image = global::NICK_Proekt.Properties.Resources.memorygame;
+            this.pictureBox7.Location = new System.Drawing.Point(21, 280);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(241, 148);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 30;
+            this.pictureBox7.TabStop = false;
+            // 
             // Informativna_stranica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(770, 456);
+            this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.greenButtonLearn);
             this.Controls.Add(this.pictureBoxChooseAGame);
             this.Controls.Add(this.btnExit);
@@ -287,6 +301,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxChooseAGame)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.greenButtonLearn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -310,5 +325,6 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.PictureBox pictureBoxChooseAGame;
         private System.Windows.Forms.PictureBox greenButtonLearn;
+        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }

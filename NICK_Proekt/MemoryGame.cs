@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,7 +18,7 @@ namespace NICK_Proekt
         List<string> icons = new List<string>()
         {
             "ö","ö","!","!","õ","õ","ô","ô",
-            "ó","ó","ò","ò","ÿ","ÿ","¯","¯"
+            "ó","ó","ò","ò","ÿ","ÿ","˜","˜"
 
 
         };
@@ -103,6 +104,27 @@ namespace NICK_Proekt
             firstClicked = null;
             secondClicked = null;
 
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
+
+        private void pbGame2AllCorrect_Click(object sender, EventArgs e)
+        {
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.game3Recording);
+            soundplayer.Play();
+        }
+
+        private void btnBackOnGames_Click(object sender, EventArgs e)
+        {
+            Informativna_stranica informativnaStranica = new Informativna_stranica();
+            this.Hide();
+            if (informativnaStranica.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+
+            }
         }
 
         private void AssignIconsToSquares()

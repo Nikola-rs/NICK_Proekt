@@ -34,7 +34,9 @@ namespace NICK_Proekt
             this.label1 = new System.Windows.Forms.Label();
             this.btnNazadIzborIgra = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
+            this.pbGame2AllCorrect = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbGame2AllCorrect)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -76,7 +78,7 @@ namespace NICK_Proekt
             // btnNazadIzborIgra
             // 
             this.btnNazadIzborIgra.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnNazadIzborIgra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(245)))), ((int)(((byte)(28)))));
+            this.btnNazadIzborIgra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(208)))), ((int)(((byte)(240)))));
             this.btnNazadIzborIgra.Location = new System.Drawing.Point(360, 426);
             this.btnNazadIzborIgra.Name = "btnNazadIzborIgra";
             this.btnNazadIzborIgra.Size = new System.Drawing.Size(143, 25);
@@ -98,6 +100,19 @@ namespace NICK_Proekt
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // pbGame2AllCorrect
+            // 
+            this.pbGame2AllCorrect.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.pbGame2AllCorrect.BackColor = System.Drawing.Color.Transparent;
+            this.pbGame2AllCorrect.Image = global::NICK_Proekt.Properties.Resources.speaker;
+            this.pbGame2AllCorrect.Location = new System.Drawing.Point(280, 378);
+            this.pbGame2AllCorrect.Name = "pbGame2AllCorrect";
+            this.pbGame2AllCorrect.Size = new System.Drawing.Size(33, 37);
+            this.pbGame2AllCorrect.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbGame2AllCorrect.TabIndex = 30;
+            this.pbGame2AllCorrect.TabStop = false;
+            this.pbGame2AllCorrect.Click += new System.EventHandler(this.pbGame2AllCorrect_Click);
+            // 
             // TocnoPogodeniSiteZivotniMemorija
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -105,6 +120,7 @@ namespace NICK_Proekt
             this.BackgroundImage = global::NICK_Proekt.Properties.Resources.pozadina222;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(770, 456);
+            this.Controls.Add(this.pbGame2AllCorrect);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnNazadIzborIgra);
             this.Controls.Add(this.btnIgrajPovtorno);
@@ -116,6 +132,7 @@ namespace NICK_Proekt
             this.Text = "TocnoPogodeniSiteZivotniZaGame2";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbGame2AllCorrect)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -128,5 +145,6 @@ namespace NICK_Proekt
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnNazadIzborIgra;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.PictureBox pbGame2AllCorrect;
     }
 }

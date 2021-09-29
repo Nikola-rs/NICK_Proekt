@@ -416,5 +416,14 @@
   <ItemGroup>
     <None Include="Resources\virtualPlayerAna.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game3Success.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game3Recording.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\memorygame.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
