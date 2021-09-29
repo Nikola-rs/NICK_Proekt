@@ -66,8 +66,12 @@ namespace NICK_Proekt
 
         private void btnGame3_Click(object sender, EventArgs e)
         {
+            MemoryGame memoryGame = new MemoryGame();
+            this.Hide();
+            if(memoryGame.ShowDialog() == DialogResult.OK) {
 
-        }
+            }
+         }
 
         private void btnGame2_Click(object sender, EventArgs e)
         {
