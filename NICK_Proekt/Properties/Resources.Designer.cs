@@ -429,6 +429,24 @@ namespace NICK_Proekt.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream game4Congrats {
+            get {
+                return ResourceManager.GetStream("game4Congrats", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream game4Intro {
+            get {
+                return ResourceManager.GetStream("game4Intro", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream goatPronunciation {
             get {
                 return ResourceManager.GetStream("goatPronunciation", resourceCulture);

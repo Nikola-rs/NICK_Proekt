@@ -123,5 +123,15 @@ namespace NICK_Proekt
             SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.chooseAGame);
             soundplayer.Play();
         }
+
+        private void btnGame4_Click(object sender, EventArgs e)
+        {
+            Game4 newForm = new Game4();
+            this.Hide();
+            if (newForm.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+
+            }
+        }
     }
 }

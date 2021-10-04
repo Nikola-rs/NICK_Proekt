@@ -80,6 +80,12 @@
     <Compile Include="Game2.Designer.cs">
       <DependentUpon>Game2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Game4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game4.Designer.cs">
+      <DependentUpon>Game4.cs</DependentUpon>
+    </Compile>
     <Compile Include="GreskaPogodenoZivotno.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,12 @@
     <Compile Include="TocnoPogodenoZivotno.Designer.cs">
       <DependentUpon>TocnoPogodenoZivotno.cs</DependentUpon>
     </Compile>
+    <Compile Include="TocnoPogodenoZivotnoZaGame4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TocnoPogodenoZivotnoZaGame4.Designer.cs">
+      <DependentUpon>TocnoPogodenoZivotnoZaGame4.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Game2.resx">
       <DependentUpon>Game2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game4.resx">
+      <DependentUpon>Game4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GreskaPogodenoZivotno.resx">
       <DependentUpon>GreskaPogodenoZivotno.cs</DependentUpon>
@@ -164,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TocnoPogodenoZivotno.resx">
       <DependentUpon>TocnoPogodenoZivotno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TocnoPogodenoZivotnoZaGame4.resx">
+      <DependentUpon>TocnoPogodenoZivotnoZaGame4.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -424,6 +442,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\memorygame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game4Intro.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game4Congrats.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

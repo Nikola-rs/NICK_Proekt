@@ -46,6 +46,7 @@
             this.pictureBoxChooseAGame = new System.Windows.Forms.PictureBox();
             this.greenButtonLearn = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.btnGame4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -77,7 +78,7 @@
             this.btnGame1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnGame1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
             this.btnGame1.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGame1.Location = new System.Drawing.Point(310, 101);
+            this.btnGame1.Location = new System.Drawing.Point(310, 93);
             this.btnGame1.Name = "btnGame1";
             this.btnGame1.Size = new System.Drawing.Size(202, 42);
             this.btnGame1.TabIndex = 2;
@@ -90,7 +91,7 @@
             this.btnGame2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnGame2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
             this.btnGame2.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGame2.Location = new System.Drawing.Point(310, 192);
+            this.btnGame2.Location = new System.Drawing.Point(310, 158);
             this.btnGame2.Name = "btnGame2";
             this.btnGame2.Size = new System.Drawing.Size(202, 42);
             this.btnGame2.TabIndex = 4;
@@ -103,7 +104,7 @@
             this.btnGame3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnGame3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
             this.btnGame3.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGame3.Location = new System.Drawing.Point(310, 280);
+            this.btnGame3.Location = new System.Drawing.Point(310, 219);
             this.btnGame3.Name = "btnGame3";
             this.btnGame3.Size = new System.Drawing.Size(202, 42);
             this.btnGame3.TabIndex = 5;
@@ -266,12 +267,26 @@
             this.pictureBox7.TabIndex = 30;
             this.pictureBox7.TabStop = false;
             // 
+            // btnGame4
+            // 
+            this.btnGame4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnGame4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(225)))), ((int)(((byte)(250)))));
+            this.btnGame4.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGame4.Location = new System.Drawing.Point(310, 280);
+            this.btnGame4.Name = "btnGame4";
+            this.btnGame4.Size = new System.Drawing.Size(202, 42);
+            this.btnGame4.TabIndex = 32;
+            this.btnGame4.Text = "ВЛЕЧЕЊЕ НА ЖИВОТНИ";
+            this.btnGame4.UseVisualStyleBackColor = false;
+            this.btnGame4.Click += new System.EventHandler(this.btnGame4_Click);
+            // 
             // Informativna_stranica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(770, 456);
+            this.Controls.Add(this.btnGame4);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.greenButtonLearn);
             this.Controls.Add(this.pictureBoxChooseAGame);
@@ -326,5 +341,6 @@
         private System.Windows.Forms.PictureBox pictureBoxChooseAGame;
         private System.Windows.Forms.PictureBox greenButtonLearn;
         private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Button btnGame4;
     }
 }
