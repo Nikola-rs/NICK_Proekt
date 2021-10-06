@@ -68,6 +68,9 @@ namespace NICK_Proekt
 
             if (lbForMouse.Enabled == false && lbForCat.Enabled == false && lbforDog.Enabled == false && lbForParrot.Enabled == false)
             {
+                this.Cursor = Cursors.WaitCursor;
+                this.Enabled = false;
+                WaitSomeTime();
                 TocnoPogodeniSiteZivotniZaGame2 newForm = new TocnoPogodeniSiteZivotniZaGame2();
                 this.Hide();
                 if (newForm.ShowDialog() == DialogResult.OK)
@@ -102,6 +105,9 @@ namespace NICK_Proekt
 
             if (lbForMouse.Enabled == false && lbForCat.Enabled == false && lbforDog.Enabled == false && lbForParrot.Enabled == false)
             {
+                this.Cursor = Cursors.WaitCursor;
+                this.Enabled = false;
+                WaitSomeTime();
                 TocnoPogodeniSiteZivotniZaGame2 newForm = new TocnoPogodeniSiteZivotniZaGame2();
                 this.Hide();
                 if (newForm.ShowDialog() == DialogResult.OK)
@@ -136,6 +142,9 @@ namespace NICK_Proekt
 
             if (lbForMouse.Enabled == false && lbForCat.Enabled == false && lbforDog.Enabled == false && lbForParrot.Enabled == false)
             {
+                this.Cursor = Cursors.WaitCursor;
+                this.Enabled = false;
+                WaitSomeTime();
                 TocnoPogodeniSiteZivotniZaGame2 newForm = new TocnoPogodeniSiteZivotniZaGame2();
                 this.Hide();
                 if (newForm.ShowDialog() == DialogResult.OK)
@@ -170,6 +179,9 @@ namespace NICK_Proekt
 
             if (lbForMouse.Enabled == false && lbForCat.Enabled == false && lbforDog.Enabled == false && lbForParrot.Enabled == false)
             {
+                this.Cursor = Cursors.WaitCursor;
+                this.Enabled = false;
+                WaitSomeTime();
                 TocnoPogodeniSiteZivotniZaGame2 newForm = new TocnoPogodeniSiteZivotniZaGame2();
                 this.Hide();
                 if (newForm.ShowDialog() == DialogResult.OK)
@@ -208,6 +220,13 @@ namespace NICK_Proekt
         {
             SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.game2);
             soundplayer.Play();
+        }
+
+        public async void WaitSomeTime()
+        {
+            await Task.Delay(8000);
+            this.Enabled = true;
+            this.Cursor = Cursors.Default;
         }
     }
 }

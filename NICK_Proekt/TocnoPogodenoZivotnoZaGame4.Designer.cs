@@ -62,7 +62,7 @@ namespace NICK_Proekt
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::NICK_Proekt.Properties.Resources.pngaaa_com_1271747;
             this.pictureBox3.Location = new System.Drawing.Point(119, 168);
@@ -75,7 +75,7 @@ namespace NICK_Proekt
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::NICK_Proekt.Properties.Resources.pngaaa10;
             this.pictureBox4.Location = new System.Drawing.Point(327, 87);
@@ -191,6 +191,7 @@ namespace NICK_Proekt
             this.DoubleBuffered = true;
             this.Name = "TocnoPogodenoZivotnoZaGame4";
             this.Text = "TocnoPogodenoZivotnoZaGame4";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

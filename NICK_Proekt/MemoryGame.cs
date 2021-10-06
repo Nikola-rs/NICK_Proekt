@@ -86,12 +86,22 @@ namespace NICK_Proekt
                     return;
             }
 
+            this.Cursor = Cursors.WaitCursor;
+            this.Enabled = false;
+            WaitSomeTime();
             TocnoPogodeniSiteZivotniMemorija newForm = new TocnoPogodeniSiteZivotniMemorija();
             this.Hide();
             if (newForm.ShowDialog() == DialogResult.OK)
             {
 
             }
+        }
+
+        public async void WaitSomeTime()
+        {
+            await Task.Delay(8000);
+            this.Enabled = true;
+            this.Cursor = Cursors.Default;
         }
 
         private void timer1_Tick(object sender, EventArgs e)

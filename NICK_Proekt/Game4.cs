@@ -79,10 +79,9 @@ namespace NICK_Proekt
             }
             if (count == 4)
             {
-                Timer MyTimer = new Timer();
-                MyTimer.Interval = (50 * 60 * 1000); // 5 sec
-                MyTimer.Tick += new EventHandler(MyTimer_Tick);
-                MyTimer.Start();
+                this.Cursor = Cursors.WaitCursor;
+                this.Enabled = false;
+                WaitSomeTime();
                 TocnoPogodenoZivotnoZaGame4 tocnoPogodenoZivotnoZaGame4 = new TocnoPogodenoZivotnoZaGame4();
                 this.Hide();
                 if (tocnoPogodenoZivotnoZaGame4.ShowDialog() == DialogResult.OK)
@@ -93,13 +92,12 @@ namespace NICK_Proekt
             dragObj.Left = e.X + dragObj.Left - MouseLoc.X;
             dragObj.Top = e.Y + dragObj.Top - MouseLoc.Y;
         }
-
-        private void MyTimer_Tick(object sender, EventArgs e)
+        public async void WaitSomeTime()
         {
-            MessageBox.Show("The form will now be closed.", "Time Elapsed");
-            this.Close();
+            await Task.Delay(8000);
+            this.Enabled = true;
+            this.Cursor = Cursors.Default;
         }
-
         private void btnExit_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
