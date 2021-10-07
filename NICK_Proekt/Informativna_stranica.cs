@@ -120,7 +120,7 @@ namespace NICK_Proekt
 
         private void pictureBoxChooseAGame_Click(object sender, EventArgs e)
         {
-            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.chooseAGame);
+            SoundPlayer soundplayer = new SoundPlayer(NICK_Proekt.Properties.Resources.InfoAllGames); ;
             soundplayer.Play();
         }
 
